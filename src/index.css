@@ -1,0 +1,84 @@
+@import-normalize;
+
+@font-face {
+  font-family: "Axiforma";
+  src: local("Axiforma Bold"), local("Axiforma-Bold"),
+    url("./assets/fonts/Axiforma-Bold/Axiforma-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Axiforma-Bold/Axiforma-Bold.woff") format("woff"),
+    url("./assets/fonts/Axiforma-Bold/Axiforma-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: local("Axiforma Medium"), local("Axiforma-Medium"),
+    url("./assets/fonts/Axiforma-Medium/Axiforma-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Axiforma-Medium/Axiforma-Medium.woff") format("woff"),
+    url("./assets/fonts/Axiforma-Medium/Axiforma-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: local("Axiforma Regular"), local("Axiforma-Regular"),
+    url("./assets/fonts/Axiforma-Regular/Axiforma-Regular.woff2")
+      format("woff2"),
+    url("./assets/fonts/Axiforma-Regular/Axiforma-Regular.woff") format("woff"),
+    url("./assets/fonts/Axiforma-Regular/Axiforma-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Axiforma", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.axiforma {
+  font-family: "Axiforma";
+  font-weight: 700;
+  font-size: 24px;
+}
