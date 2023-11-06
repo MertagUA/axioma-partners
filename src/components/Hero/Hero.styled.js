@@ -3,12 +3,12 @@ import { theme } from "../../utils/theme";
 
 export const Section = styled.section`
   position: relative;
-  height: 341px;
-  padding: 41px 0 128px;
+  padding: 41px 0 181px;
 `;
 
 export const TopText = styled.p`
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   margin-bottom: 12px;
   padding-left: 111px;
 
@@ -20,7 +20,7 @@ export const TopText = styled.p`
   line-height: 160%;
 `;
 
-export const HeroTitle = styled.p`
+export const Title = styled.p`
   color: ${theme.white};
   font-family: "Axiforma";
   font-size: 94px;
@@ -30,7 +30,7 @@ export const HeroTitle = styled.p`
   text-align: right;
 `;
 
-export const HeroTitleBottom = styled.p`
+export const TitleBottom = styled.p`
   margin-top: 15px;
   color: ${theme.white};
   font-family: "Axiforma";
@@ -41,8 +41,9 @@ export const HeroTitleBottom = styled.p`
   text-align: right;
 `;
 
-export const HeroDescription = styled.p`
-  width: 488px;
+export const Description = styled.p`
+  max-width: 488px;
+  width: 100%;
   color: ${theme.green};
   font-family: "Axiforma";
   font-size: 18px;
@@ -51,18 +52,19 @@ export const HeroDescription = styled.p`
   line-height: 177.778%;
 `;
 
-export const HeroTextWrapper = styled.div`
+export const TextWrapper = styled.div`
   display: flex;
   gap: 23px;
   margin-top: 3px;
 `;
 
-export const HeroLines = styled.div`
+export const Lines = styled.div`
   position: absolute;
-  bottom: -34px;
-  right: -275px;
+  bottom: 10%;
+  right: -50%;
 
-  width: 671px;
+  max-width: 1110px;
+  width: 100%;
   height: 82px;
   padding: 8px 0 8px 8px;
 
@@ -70,12 +72,14 @@ export const HeroLines = styled.div`
   border: 1px solid ${theme.green};
 `;
 
-export const HeroButton = styled.button`
-  width: 228px;
+export const Button = styled.button`
+  max-width: 228px;
+  width: 100%;
   height: 66px;
   border: transparent;
   border-radius: 64px;
   background-color: ${theme.green};
+  cursor: pointer;
 
   color: ${theme.grey};
 

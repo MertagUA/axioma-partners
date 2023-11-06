@@ -1,10 +1,10 @@
 import {
-  HeroButton,
-  HeroDescription,
-  HeroLines,
-  HeroTextWrapper,
-  HeroTitle,
-  HeroTitleBottom,
+  Button,
+  Description,
+  Lines,
+  TextWrapper,
+  Title,
+  TitleBottom,
   Section,
   TopText,
 } from "./Hero.styled";
@@ -13,17 +13,17 @@ export const Hero = () => {
   return (
     <Section>
       <TopText>кращий</TopText>
-      <HeroTitle>ЛЕНДIНГ ДЛЯ РОБОТИ</HeroTitle>
-      <HeroTextWrapper>
-        <HeroDescription>
+      <Title>ЛЕНДIНГ ДЛЯ РОБОТИ</Title>
+      <TextWrapper>
+        <Description>
           “підвищуйте свій прибуток разом з нами - вашим надійним партнером у
           рекламі, телеграм каналах та блогах!“
-        </HeroDescription>
-        <HeroTitleBottom>З БЛОГЕРАМИ</HeroTitleBottom>
-      </HeroTextWrapper>
-      <HeroLines>
-        <HeroButton type="button">Написати нам</HeroButton>
-      </HeroLines>
+        </Description>
+        <TitleBottom>З БЛОГЕРАМИ</TitleBottom>
+      </TextWrapper>
+      <Lines>
+        <Button type="button">Написати нам</Button>
+      </Lines>
     </Section>
   );
 };

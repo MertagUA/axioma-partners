@@ -1,17 +1,41 @@
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
-import bg from "./assets/images/bg.webp";
-import { Container } from "./App.styled";
+import {
+  Background,
+  Container,
+  FadeBackground,
+  FooterBackground,
+} from "./App.styled";
 import { Hero } from "./components/Hero/Hero";
+import { Traffic } from "./components/Traffic/Traffic";
+import { WeCan } from "./components/WeCan/WeCan";
+import { Clients } from "./components/Clients/Clients";
+import { Partners } from "./components/Partners/Partners";
+import { ForClients } from "./components/ForClients/ForClients";
 
 export function App() {
   return (
-    <div style={{ backgroundImage: `url(${bg})` }}>
+    <Background>
       <Container>
         <Header />
         <Hero />
-        <Footer />
       </Container>
-    </div>
+      <Traffic />
+      <Container>
+        <WeCan />
+        <Clients />
+      </Container>
+      <FadeBackground>
+        <Container>
+          <Partners />
+          <ForClients />
+        </Container>
+      </FadeBackground>
+      <FooterBackground>
+        <Container>
+          <Footer />
+        </Container>
+      </FooterBackground>
+    </Background>
   );
 }

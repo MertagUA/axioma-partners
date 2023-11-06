@@ -5,6 +5,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 61px;
 `;
 
 export const NavList = styled.ul`
@@ -12,7 +13,8 @@ export const NavList = styled.ul`
   gap: 34px;
 `;
 
-export const NavLink = styled.a`
+export const NavLink = styled.p`
+  cursor: pointer;
   color: ${theme.white};
   font-family: "Axiforma";
   font-size: 16px;

@@ -2,6 +2,16 @@
 
 @font-face {
   font-family: "Axiforma";
+  src: local("Axiforma Black"), local("Axiforma-Black"),
+    url("./assets/fonts/Axiforma-Black/Axiforma-Black.woff2") format("woff2"),
+    url("./assets/fonts/Axiforma-Black/Axiforma-Black.woff") format("woff"),
+    url("./assets/fonts/Axiforma-Black/Axiforma-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Axiforma";
   src: local("Axiforma Bold"), local("Axiforma-Bold"),
     url("./assets/fonts/Axiforma-Bold/Axiforma-Bold.woff2") format("woff2"),
     url("./assets/fonts/Axiforma-Bold/Axiforma-Bold.woff") format("woff"),

@@ -1,5 +1,6 @@
 import logo from "../../assets/images/logo.webp";
 import { Nav, NavLink, NavList } from "./Header.styled";
+import { Link } from "react-scroll";
 
 export const Header = () => {
   return (
@@ -14,19 +15,29 @@ export const Header = () => {
       </div>
       <NavList>
         <li>
-          <NavLink href="#traffic">трафік</NavLink>
+          <Link to="traffic" spy={true} smooth={true} duration={400}>
+            <NavLink>трафік</NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink href="#clients">клієнти</NavLink>
+          <Link to="we-can" spy={true} smooth={true} duration={650}>
+            <NavLink>ми можемо</NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink href="#partners">партнери</NavLink>
+          <Link to="clients" spy={true} smooth={true} duration={800}>
+            <NavLink>клієнти</NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink href="#we-can">ми можемо</NavLink>
+          <Link to="partners" spy={true} smooth={true} duration={900}>
+            <NavLink>партнери</NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink href="#for-clients">для клiєнтiв</NavLink>
+          <Link to="for-clients" spy={true} smooth={true} duration={900}>
+            <NavLink>для клiєнтiв</NavLink>
+          </Link>
         </li>
       </NavList>
     </Nav>
