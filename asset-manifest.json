@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/axioma-partners/static/css/main.5ddd5ff1.css",
+    "main.js": "/axioma-partners/static/js/main.447b675b.js",
+    "static/media/item5Replace.png": "/axioma-partners/static/media/item5Replace.c2d7d341dc9b259d3729.png",
+    "static/media/item4Replace.png": "/axioma-partners/static/media/item4Replace.25916c63fd5424ad6bac.png",
+    "static/media/item1Replace.png": "/axioma-partners/static/media/item1Replace.16a47fbff4e40a043163.png",
+    "static/media/item3Replace.png": "/axioma-partners/static/media/item3Replace.5d09fdad7e807a42b59c.png",
+    "static/media/item2Replace.png": "/axioma-partners/static/media/item2Replace.2ed5da86d5f28cdcb4da.png",
+    "static/media/bg.webp": "/axioma-partners/static/media/bg.793cefc715186093aa0e.webp",
+    "static/media/fade.png": "/axioma-partners/static/media/fade.30bb679dd67ddcf11154.png",
+    "static/media/sprite.svg": "/axioma-partners/static/media/sprite.b5d6f951e566391a0c0bacd193cab5cb.svg",
+    "static/media/Axiforma-Medium.ttf": "/axioma-partners/static/media/Axiforma-Medium.230a759003b2789cc0d1.ttf",
+    "static/media/Axiforma-Regular.ttf": "/axioma-partners/static/media/Axiforma-Regular.c4f8a961a15e460f3a71.ttf",
+    "static/media/Axiforma-Bold.ttf": "/axioma-partners/static/media/Axiforma-Bold.179a245385b803119e63.ttf",
+    "static/media/Axiforma-Black.ttf": "/axioma-partners/static/media/Axiforma-Black.48cabd4c55e9520f3edf.ttf",
+    "static/media/item4.png": "/axioma-partners/static/media/item4.c188dd686457036dd203.png",
+    "static/media/item3.png": "/axioma-partners/static/media/item3.b06cc9c0d0ff376d28b6.png",
+    "static/media/item5.png": "/axioma-partners/static/media/item5.abfbac00eec712589bb1.png",
+    "static/media/item1.png": "/axioma-partners/static/media/item1.24b44e721125e4b46732.png",
+    "static/media/Axiforma-Bold.woff": "/axioma-partners/static/media/Axiforma-Bold.a5763688e85a57f1a5f6.woff",
+    "static/media/Axiforma-Medium.woff": "/axioma-partners/static/media/Axiforma-Medium.27f762a5c4f1236bf738.woff",
+    "static/media/Axiforma-Black.woff": "/axioma-partners/static/media/Axiforma-Black.992ceed2d6cc039c8408.woff",
+    "static/media/Axiforma-Regular.woff": "/axioma-partners/static/media/Axiforma-Regular.2b258adf3be92e4cc1ad.woff",
+    "static/media/item2.png": "/axioma-partners/static/media/item2.83faad665f147fbdda50.png",
+    "static/media/Axiforma-Bold.woff2": "/axioma-partners/static/media/Axiforma-Bold.a3329a3314dd825fab49.woff2",
+    "static/media/Axiforma-Black.woff2": "/axioma-partners/static/media/Axiforma-Black.304fdea0c4113c504dc7.woff2",
+    "static/media/Axiforma-Medium.woff2": "/axioma-partners/static/media/Axiforma-Medium.1470f64529db935191c3.woff2",
+    "static/media/Axiforma-Regular.woff2": "/axioma-partners/static/media/Axiforma-Regular.7f1cf476b4119c8b770e.woff2",
+    "static/media/logo.webp": "/axioma-partners/static/media/logo.8bab55d5c33cbe4d266a.webp",
+    "static/media/backgroundTraffic.svg": "/axioma-partners/static/media/backgroundTraffic.bf8ca4e70562ed9626f395e3007f7f70.svg",
+    "index.html": "/axioma-partners/index.html",
+    "main.5ddd5ff1.css.map": "/axioma-partners/static/css/main.5ddd5ff1.css.map",
+    "main.447b675b.js.map": "/axioma-partners/static/js/main.447b675b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ddd5ff1.css",
+    "static/js/main.447b675b.js"
+  ]
+}
