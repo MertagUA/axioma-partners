@@ -30,12 +30,18 @@ export const Footer = () => {
         <RightWrapper>
           <Button type="button">Написати нам</Button>
           <Mail href="mailto:axiomateam@gmail.com">axiomateam@gmail.com</Mail>
-          <IconTextWrapper>
-            <RightText>axioma.team</RightText>
-            <svg width={"32px"} height={"32px"}>
-              <use href={sprite + "#icon-instagramFooter"}></use>
-            </svg>
-          </IconTextWrapper>
+          <a
+            href="https://www.instagram.com/axioma.team/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <IconTextWrapper>
+              <RightText>axioma.team</RightText>
+              <svg width={"32px"} height={"32px"}>
+                <use href={sprite + "#icon-instagramFooter"}></use>
+              </svg>
+            </IconTextWrapper>
+          </a>
         </RightWrapper>
       </Wrapper>
     </FooterStyled>

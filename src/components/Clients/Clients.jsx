@@ -18,6 +18,7 @@ import {
 } from "./Clients.styled";
 import sprite from "../../assets/images/sprite.svg";
 import comma from "../../assets/images/comma.png";
+import { Link } from "react-scroll";
 
 export const Clients = () => {
   return (
@@ -75,10 +76,23 @@ export const Clients = () => {
             Маємо ще трохи цікавої інформації для тебе, гортай нижче
           </LastItemDescription>
           <Button type="button">
-            Що у нас тут{" "}
-            <svg width={16} height={19}>
-              <use href={sprite + "#icon-questionDownMark"}></use>
-            </svg>
+            <Link
+              to="partners"
+              spy={true}
+              smooth={true}
+              duration={350}
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+              }}
+            >
+              <p>Що у нас тут</p>
+              <svg width={16} height={19}>
+                <use href={sprite + "#icon-questionDownMark"}></use>
+              </svg>
+            </Link>
           </Button>
         </LastItem>
       </ItemsWrapper>

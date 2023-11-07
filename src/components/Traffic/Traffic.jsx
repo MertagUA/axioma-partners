@@ -68,6 +68,7 @@ export const Traffic = () => {
               style={{
                 opacity: iconsBottom ? "1" : "0.2",
                 transition: "opacity 0.5s",
+                cursor: iconsBottom ? "pointer" : "not-allowed",
               }}
             >
               <path
@@ -101,6 +102,7 @@ export const Traffic = () => {
               style={{
                 opacity: iconsBottom ? "0.2" : "1",
                 transition: "opacity 0.5s",
+                cursor: iconsBottom ? "not-allowed" : "pointer",
               }}
             >
               <path

@@ -214,10 +214,6 @@ export const Comma = styled.img`
 `;
 
 export const Button = styled.button`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   max-width: 230px;
   width: 100%;
   height: 46px;
@@ -230,4 +226,5 @@ export const Button = styled.button`
   line-height: 159.375%;
   background-color: transparent;
   border: transparent;
+  cursor: pointer;
 `;

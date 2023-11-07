@@ -3,6 +3,15 @@ import {
   AnimatedIconsWrapper,
   Description,
   Icon1,
+  Icon10,
+  Icon2,
+  Icon3,
+  Icon4,
+  Icon5,
+  Icon6,
+  Icon7,
+  Icon8,
+  Icon9,
   IconsWrapper,
   Section,
   Title,
@@ -24,44 +33,44 @@ export const Partners = () => {
       </Description>
       <AnimatedIconsWrapper>
         <IconsWrapper>
-          <svg width={162} height={28}>
+          <Icon1 width={190} height={117}>
             <use href={sprite + "#icon-slotoking"}></use>
-          </svg>
-          <svg width={152.6} height={45.8}>
+          </Icon1>
+          <Icon2 width={190} height={117}>
             <use href={sprite + "#icon-cosmolot"}></use>
-          </svg>
+          </Icon2>
         </IconsWrapper>
         <IconsWrapper>
-          <svg width={154} height={43.1}>
+          <Icon3 width={190} height={117}>
             <use href={sprite + "#icon-slotscity"}></use>
-          </svg>
-          <svg width={170} height={30}>
+          </Icon3>
+          <Icon4 width={190} height={117}>
             <use href={sprite + "#icon-favbet"}></use>
-          </svg>
+          </Icon4>
         </IconsWrapper>
         <IconsWrapper>
-          <svg width={152.6} height={45.8}>
+          <Icon5 width={190} height={117}>
             <use href={sprite + "#icon-cosmolot"}></use>
-          </svg>
-          <svg width={158} height={61.3}>
+          </Icon5>
+          <Icon6 width={190} height={117}>
             <use href={sprite + "#icon-supergra"}></use>
-          </svg>
+          </Icon6>
         </IconsWrapper>
         <IconsWrapper>
-          <svg width={170} height={30}>
+          <Icon7 width={190} height={117}>
             <use href={sprite + "#icon-favbet"}></use>
-          </svg>
-          <svg width={162} height={28}>
+          </Icon7>
+          <Icon8 width={190} height={117}>
             <use href={sprite + "#icon-slotoking"}></use>
-          </svg>
+          </Icon8>
         </IconsWrapper>
         <IconsWrapper>
-          <svg width={158} height={61.3}>
+          <Icon9 width={190} height={117}>
             <use href={sprite + "#icon-supergra"}></use>
-          </svg>
-          <svg width={154} height={43.1}>
+          </Icon9>
+          <Icon10 width={190} height={117}>
             <use href={sprite + "#icon-slotscity"}></use>
-          </svg>
+          </Icon10>
         </IconsWrapper>
       </AnimatedIconsWrapper>
     </Section>
