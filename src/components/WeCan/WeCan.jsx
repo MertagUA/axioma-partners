@@ -57,7 +57,7 @@ import mobileReplaceInfo from "../../assets/images/itemClick.png";
 export const WeCan = () => {
   return (
     <Section name="we-can">
-      <Title className="text text--enter" data-scroll="out" data-splitting="">
+      <Title className="wow animate__animated animate__fadeInUp">
         ЩО МИ <AccentTitle>МОЖЕМО ?</AccentTitle>
       </Title>
       <Description>
@@ -155,7 +155,7 @@ export const WeCan = () => {
               <svg width={44} height={44}>
                 <use href={sprite + "#icon-square"}></use>
               </svg>
-              <Name1>ЛЕНДІНГИ</Name1>
+              <Name1>ЛЕНДIНГИ</Name1>
             </NameContainer>
             <Text1>
               Ми створю<span className="ukrainianWordMedium">є</span>мо стор

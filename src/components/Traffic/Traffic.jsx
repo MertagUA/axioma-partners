@@ -53,11 +53,11 @@ export const Traffic = () => {
             </svg>
           </Button>
         </Link>
-        <Title>
+        <Title className="wow animate__animated animate__fadeInUp">
           МИ ПРАЦЮ<span className="ukrainianWordBold">Є</span>МО
         </Title>
         <TextWrapper>
-          <Title>
+          <Title className="wow animate__animated animate__fadeInUp">
             З ТРАФIК <TitleSpan>СОРСАМИ</TitleSpan>
           </Title>
           <Description>

@@ -25,7 +25,7 @@ import { Link } from "react-scroll";
 export const Clients = () => {
   return (
     <Section name="clients">
-      <Title>
+      <Title className="wow animate__animated animate__fadeInUp">
         МИ ПРАЦЮ<span className="ukrainianWordBold">Є</span>МО
         <Accent> З КРАЩИМИ</Accent>
       </Title>

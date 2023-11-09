@@ -24,7 +24,7 @@ export const ForClients = () => {
           <span className="ukrainianWordMedium">і</span>дтримка завжди готова
           надати необх<span className="ukrainianWordMedium">і</span>дну допомогу
         </Description>
-        <Title>
+        <Title className="wow animate__animated animate__fadeInUp">
           ДЛЯ НАШИХ КЛI<span className="ukrainianWordBold">Є</span>НТ
           <span className="ukrainianWordBold">І</span>В
         </Title>
