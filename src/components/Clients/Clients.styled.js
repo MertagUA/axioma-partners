@@ -4,6 +4,10 @@ import { keyframes } from "@emotion/react";
 
 export const Section = styled.section`
   padding: 100px 0;
+
+  @media screen and (max-width: 481px) {
+    padding: 70px 0;
+  }
 `;
 
 export const Title = styled.p`
@@ -13,14 +17,37 @@ export const Title = styled.p`
   font-style: normal;
   font-weight: 700;
   line-height: 111.111%;
+
+  @media screen and (max-width: 481px) {
+    font-size: 49px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 46px;
+  }
+
+  @media screen and (max-width: 425px) {
+    font-size: 45px;
+  }
+
+  @media screen and (max-width: 415px) {
+    font-size: 42px;
+  }
+
+  @media screen and (max-width: 385px) {
+    font-size: 39px;
+  }
+
+  @media screen and (max-width: 365px) {
+    font-size: 36px;
+  }
+
+  @media screen and (max-width: 340px) {
+    font-size: 34px;
+  }
 `;
 
 export const Accent = styled.span`
-  font-family: "Axiforma";
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 111.111%;
   background: linear-gradient(149deg, #0495ff 0%, #18c8ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -39,6 +66,34 @@ export const Description = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: 177.778%;
+
+  @media screen and (max-width: 481px) {
+    display: none;
+  }
+`;
+
+export const DescriptionMobile = styled.p`
+  color: ${theme.white};
+  text-align: right;
+
+  font-family: "Axiforma";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.778%;
+  margin-top: 24px;
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 380px) {
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 350px) {
+    font-size: 15px;
+  }
 `;
 
 export const DescriptionAccent = styled.span`
@@ -54,6 +109,13 @@ export const ItemsWrapper = styled.div`
   display: flex;
   margin-top: 72px;
   gap: 30px;
+
+  @media screen and (max-width: 481px) {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 48px;
+    gap: 18px;
+  }
 `;
 
 export const IconsWrapper = styled.div`
@@ -97,7 +159,7 @@ export const Item = styled.div`
   max-width: 290px;
   width: 100%;
   height: 340px;
-  padding: 47px 0 0 23px;
+  padding: 47px 0 0 34px;
   overflow: hidden;
   border-radius: 0px 143.5px 0px 0px;
   background: linear-gradient(149deg, #0495ff 100%, #18c8ff 100%);
@@ -119,6 +181,17 @@ export const Item = styled.div`
       animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
     }
   }
+
+  @media screen and (max-width: 481px) {
+    padding: 24px 0 18px 34px;
+    max-width: 390px;
+    width: 100%;
+    height: 252px;
+  }
+
+  @media screen and (max-width: 340px) {
+    height: 268px;
+  }
 `;
 
 export const IconFirst = styled.svg`
@@ -126,6 +199,10 @@ export const IconFirst = styled.svg`
   height: 64px;
   fill: none;
   margin-left: 11px;
+
+  media screen and (max-width: 481px) {
+    margin-left: 0;
+  }
 `;
 
 export const Icon = styled.svg`
@@ -133,6 +210,11 @@ export const Icon = styled.svg`
   height: 64px;
   margin-left: 11px;
   margin-bottom: 26px;
+
+  @media screen and (max-width: 481px) {
+    margin-bottom: 8px;
+    margin-left: 0;
+  }
 `;
 
 export const LastItem = styled.div`
@@ -164,6 +246,10 @@ export const LastItem = styled.div`
       animation-duration: 0.8s;
       animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
     }
+  }
+
+  @media screen and (max-width: 481px) {
+    display: none;
   }
 `;
 
@@ -203,6 +289,10 @@ export const ItemDescription = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: 156%;
+  @media screen and (max-width: 481px) {
+    max-width: 337px;
+    width: 100%;
+  }
 `;
 
 export const Comma = styled.img`
@@ -227,4 +317,13 @@ export const Button = styled.button`
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+`;
+
+export const ArrowText = styled.p`
+  color: ${theme.white};
+  font-family: "Axiforma";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 159.375%;
 `;

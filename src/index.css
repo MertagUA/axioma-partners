@@ -42,6 +42,46 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy Heavy"), local("Gilroy-Heavy"),
+    url("./assets/fonts/Gilroy-Black/Gilroy-Heavy.woff2") format("woff2"),
+    url("./assets/fonts/Gilroy-Black/Gilroy-Heavy.woff") format("woff"),
+    url("./assets/fonts/Gilroy-Black/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy Bold"), local("Gilroy-Bold"),
+    url("./assets/fonts/Gilroy-Bold/Gilroy-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff"),
+    url("./assets/fonts/Gilroy-Bold/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy Medium"), local("Gilroy-Medium"),
+    url("./assets/fonts/Gilroy-Medium/Gilroy-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Gilroy-Medium/Gilroy-Medium.woff") format("woff"),
+    url("./assets/fonts/Gilroy-Medium/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy Regular"), local("Gilroy-Regular"),
+    url("./assets/fonts/Gilroy-Regular/Gilroy-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Gilroy-Regular/Gilroy-Regular.woff") format("woff"),
+    url("./assets/fonts/Gilroy-Regular/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -64,6 +104,7 @@ p {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 a {
@@ -91,4 +132,24 @@ code {
   font-family: "Axiforma";
   font-weight: 700;
   font-size: 24px;
+}
+
+.ukrainianWordBlack {
+  font-family: "Gilroy";
+  font-weight: 900;
+}
+
+.ukrainianWordBold {
+  font-family: "Gilroy";
+  font-weight: 700;
+}
+
+.ukrainianWordMedium {
+  font-family: "Gilroy";
+  font-weight: 500;
+}
+
+.ukrainianWordRegular {
+  font-family: "Gilroy";
+  font-weight: 400;
 }

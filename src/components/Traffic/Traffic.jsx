@@ -24,6 +24,11 @@ import {
   IconWrapper10,
   BottomWrapper,
   MidWrapper,
+  TitleSpan,
+  IconMobileWrapper,
+  IconMobileWrapperLast,
+  LeftBoxAccent,
+  IconsMobileWrapper,
 } from "./Traffic.styled";
 import sprite from "../../assets/images/sprite.svg";
 import { Container } from "../../App.styled";
@@ -39,19 +44,36 @@ export const Traffic = () => {
       <Container>
         <Link to="traffic" spy={true} smooth={true} duration={300}>
           <Button type="button">
-            <ButtonText>Дізнатись більше</ButtonText>
+            <ButtonText>
+              Д<span className="ukrainianWordRegular">і</span>знатись б
+              <span className="ukrainianWordRegular">і</span>льше
+            </ButtonText>
             <svg width={32} height={32}>
               <use href={sprite + "#icon-arrowDown"}></use>
             </svg>
           </Button>
         </Link>
-        <Title>МИ ПРАЦЮЄМО З ТРАФIК</Title>
+        <Title>
+          МИ ПРАЦЮ<span className="ukrainianWordBold">Є</span>МО
+        </Title>
         <TextWrapper>
-          <Title>ТРАФIК СОРСАМИ</Title>
+          <Title>
+            З ТРАФIК <TitleSpan>СОРСАМИ</TitleSpan>
+          </Title>
           <Description>
-            Ми маємо успiшний досвiд привертання та конвертацiї трафiку з усiх
-            основних соцiальних мереж, таких як{" "}
-            <Accent>YouTube, TikTok, Instagram i Facebook i тд</Accent>
+            Ми ма<span className="ukrainianWordRegular">є</span>мо усп
+            <span className="ukrainianWordRegular">i</span>шний досв
+            <span className="ukrainianWordRegular">i</span>д привертання та
+            конвертац<span className="ukrainianWordRegular">ії</span> траф
+            <span className="ukrainianWordRegular">i</span>ку з ус
+            <span className="ukrainianWordRegular">i</span>х основних соц
+            <span className="ukrainianWordRegular">i</span>альних мереж, таких
+            як{" "}
+            <Accent>
+              YouTube, TikTok, Instagram{" "}
+              <span className="ukrainianWordBold">i</span> Facebook{" "}
+            </Accent>
+            <span className="ukrainianWordRegular">i</span> тд
           </Description>
         </TextWrapper>
         <MiddleWrapper>
@@ -415,12 +437,212 @@ export const Traffic = () => {
             </BottomWrapper>
           </IconsWrapper>
         </MiddleWrapper>
+        <IconsMobileWrapper>
+          <IconMobileWrapper>
+            <svg width={119} height={26.6} style={{ marginRight: "35px" }}>
+              <use href={sprite + "#icon-youtube"}></use>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="3"
+              height="178"
+              viewBox="0 0 3 178"
+              fill="none"
+              style={{ marginRight: "31px" }}
+            >
+              <path
+                d="M1.5 1.62952L1.50001 175.63"
+                stroke="url(#paint0_linear_210_4078)"
+                strokeOpacity="0.4"
+                strokeWidth="3"
+                strokeLinecap="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_210_4078"
+                  x1="1.99987"
+                  y1="1.62952"
+                  x2="2"
+                  y2="175.63"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#2C2B2E" stopOpacity="0" />
+                  <stop offset="0.5" stopColor="#2C2B2E" />
+                  <stop offset="1" stopColor="#2C2B2E" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg width={129} height={34}>
+              <use href={sprite + "#icon-instagram"}></use>
+            </svg>
+          </IconMobileWrapper>
+          <IconMobileWrapper>
+            <svg width={112.5} height={32.8} style={{ marginRight: "38.5px" }}>
+              <use href={sprite + "#icon-tiktok"}></use>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="3"
+              height="178"
+              viewBox="0 0 3 178"
+              fill="none"
+              style={{ marginRight: "30.5px" }}
+            >
+              <path
+                d="M1.5 1.62952L1.50001 175.63"
+                stroke="url(#paint0_linear_210_4078)"
+                strokeOpacity="0.4"
+                strokeWidth="3"
+                strokeLinecap="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_210_4078"
+                  x1="1.99987"
+                  y1="1.62952"
+                  x2="2"
+                  y2="175.63"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#2C2B2E" stopOpacity="0" />
+                  <stop offset="0.5" stopColor="#2C2B2E" />
+                  <stop offset="1" stopColor="#2C2B2E" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg width={129} height={25}>
+              <use href={sprite + "#icon-facebook"}></use>
+            </svg>
+          </IconMobileWrapper>
+          <IconMobileWrapper>
+            <svg width={119.5} height={38.5} style={{ marginRight: "35px" }}>
+              <use href={sprite + "#icon-viber"}></use>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="3"
+              height="178"
+              viewBox="0 0 3 178"
+              fill="none"
+              style={{ marginRight: "36px" }}
+            >
+              <path
+                d="M1.5 1.62952L1.50001 175.63"
+                stroke="url(#paint0_linear_210_4078)"
+                strokeOpacity="0.4"
+                strokeWidth="3"
+                strokeLinecap="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_210_4078"
+                  x1="1.99987"
+                  y1="1.62952"
+                  x2="2"
+                  y2="175.63"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#2C2B2E" stopOpacity="0" />
+                  <stop offset="0.5" stopColor="#2C2B2E" />
+                  <stop offset="1" stopColor="#2C2B2E" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg width={118} height={32.3}>
+              <use href={sprite + "#icon-gmail"}></use>
+            </svg>
+          </IconMobileWrapper>
+          <IconMobileWrapper>
+            <svg width={121.9} height={40.1} style={{ marginRight: "34px" }}>
+              <use href={sprite + "#icon-google"}></use>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="3"
+              height="178"
+              viewBox="0 0 3 178"
+              fill="none"
+              style={{ marginRight: "33px" }}
+            >
+              <path
+                d="M1.5 1.62952L1.50001 175.63"
+                stroke="url(#paint0_linear_210_4078)"
+                strokeOpacity="0.4"
+                strokeWidth="3"
+                strokeLinecap="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_210_4078"
+                  x1="1.99987"
+                  y1="1.62952"
+                  x2="2"
+                  y2="175.63"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#2C2B2E" stopOpacity="0" />
+                  <stop offset="0.5" stopColor="#2C2B2E" />
+                  <stop offset="1" stopColor="#2C2B2E" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg width={124} height={34}>
+              <use href={sprite + "#icon-telegram"}></use>
+            </svg>
+          </IconMobileWrapper>
+          <IconMobileWrapperLast>
+            <svg width={128} height={43.8} style={{ marginRight: "31px" }}>
+              <use href={sprite + "#icon-notification"}></use>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="3"
+              height="178"
+              viewBox="0 0 3 178"
+              fill="none"
+              style={{ marginRight: "64px" }}
+            >
+              <path
+                d="M1.5 1.62952L1.50001 175.63"
+                stroke="url(#paint0_linear_210_4078)"
+                strokeOpacity="0.4"
+                strokeWidth="3"
+                strokeLinecap="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_210_4078"
+                  x1="1.99987"
+                  y1="1.62952"
+                  x2="2"
+                  y2="175.63"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#2C2B2E" stopOpacity="0" />
+                  <stop offset="0.5" stopColor="#2C2B2E" />
+                  <stop offset="1" stopColor="#2C2B2E" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg width={63} height={63}>
+              <use href={sprite + "#icon-sms"}></use>
+            </svg>
+          </IconMobileWrapperLast>
+        </IconsMobileWrapper>
         <LeftBox>
           <LeftBoxText>
-            Наша експертність дозволяє максимізувати ваш потенціал та досягати
-            видатних результатів
+            Наша експертн<span className="ukrainianWordRegular">і</span>сть
+            дозволя<span className="ukrainianWordRegular">є</span> максим
+            <span className="ukrainianWordRegular">і</span>
+            зувати
+            <LeftBoxAccent>
+              {" "}
+              ваш потенц<span className="ukrainianWordRegular">і</span>ал{" "}
+            </LeftBoxAccent>
+            та досягати видатних результат
+            <span className="ukrainianWordRegular">і</span>в
           </LeftBoxText>
-          <svg width={84} height={84}>
+          <svg width={28} height={28}>
             <use href={sprite + "#icon-star"}></use>
           </svg>
         </LeftBox>

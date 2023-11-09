@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import { keyframes } from "@emotion/react";
 import background from "../../assets/images/backgroundTraffic.svg";
+import backgroundMobile from "../../assets/images/backgroundTrafficMobile.svg";
 import { theme } from "../../utils/theme";
 
 export const Section = styled.section`
@@ -13,15 +14,54 @@ export const Section = styled.section`
   padding-top: 261px;
 
   background-image: url(${background});
+
+  @media screen and (max-width: 481px) {
+    padding-top: 207px;
+    height: 1740px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(${backgroundMobile});
+  }
 `;
 
 export const Title = styled.p`
   color: ${theme.grey};
-  font-family: Axiforma;
-  font-size: 72px;
+  font-family: "Axiforma";
+  font-size: 71px;
   font-style: normal;
   font-weight: 700;
   line-height: 111.111%;
+
+  @media screen and (min-width: 426px) and (max-width: 481px) {
+    font-size: 42px;
+  }
+
+  @media screen and (max-width: 426px) {
+    font-size: 45px;
+  }
+
+  @media screen and (max-width: 411px) {
+    font-size: 42px;
+  }
+
+  @media screen and (max-width: 385px) {
+    font-size: 39px;
+  }
+
+  @media screen and (max-width: 361px) {
+    font-size: 36px;
+  }
+
+  @media screen and (max-width: 336px) {
+    font-size: 34px;
+  }
+`;
+
+export const TitleSpan = styled.span`
+  @media screen and (max-width: 465px) {
+    display: block;
+    text-align: right;
+  }
 `;
 
 export const Button = styled.button`
@@ -39,6 +79,10 @@ export const Button = styled.button`
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+
+  @media screen and (max-width: 481px) {
+    left: 0;
+  }
 `;
 
 export const ButtonText = styled.span`
@@ -53,7 +97,8 @@ export const ButtonText = styled.span`
 `;
 
 export const Description = styled.p`
-  width: 452px;
+  max-width: 452px;
+  width: 100%;
   height: 128px;
 
   color: ${theme.grey};
@@ -63,6 +108,22 @@ export const Description = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: 177.778%;
+
+  @media screen and (max-width: 481px) {
+    max-width: 390px;
+  }
+
+  @media screen and (max-width: 420px) {
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 375px) {
+    font-size: 15px;
+  }
 `;
 
 export const Accent = styled.span`
@@ -72,12 +133,33 @@ export const Accent = styled.span`
   font-style: normal;
   font-weight: 700;
   line-height: 177.778%;
+
+  @media screen and (max-width: 420px) {
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 375px) {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 355px) {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 335px) {
+    font-size: 13px;
+  }
 `;
 
 export const TextWrapper = styled.div`
-  display: flex;
-  align-items: baseline;
-  gap: 58px;
+  @media screen and (min-width: 481px) {
+    display: flex;
+    align-items: baseline;
+  }
 `;
 
 export const MiddleWrapper = styled.div`
@@ -85,6 +167,10 @@ export const MiddleWrapper = styled.div`
   display: flex;
   gap: 84px;
   padding-left: 13px;
+
+  @media screen and (max-width: 481px) {
+    display: none;
+  }
 `;
 
 export const ArrowsWrapper = styled.div`
@@ -105,10 +191,47 @@ export const IconWrapper1 = styled.div`
   margin-right: 30px;
 `;
 
+export const IconMobileWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const IconMobileWrapperLast = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 481px) {
+    margin-right: 32px;
+  }
+
+  @media screen and (max-width: 345px) {
+    margin-right: 28px;
+  }
+
+  @media screen and (max-width: 335px) {
+    margin-right: 26px;
+  }
+
+  @media screen and (max-width: 325px) {
+    margin-right: 24px;
+  }
+`;
+
 export const IconsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+`;
+
+export const IconsMobileWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
 `;
 
 const slideTop = keyframes`
@@ -217,8 +340,10 @@ export const IconWrapper10 = styled.div`
 
 export const LeftBox = styled.div`
   position: absolute;
-  right: 0;
-  top: 55%;
+  @media screen and (min-width: 481px) {
+    top: 55%;
+    right: 0;
+  }
   max-width: 512px;
   display: flex;
   align-items: center;
@@ -228,6 +353,16 @@ export const LeftBox = styled.div`
   margin-top: 43px;
   border-radius: 24px 0px 0px 24px;
   background: ${theme.grey};
+
+  @media screen and (max-width: 481px) {
+    left: 0;
+    bottom: 6%;
+    max-width: 408px;
+    margin-top: 0;
+    align-items: start;
+    padding: 16px 0 16px 21px;
+    border-radius: 0px 24px 24px 0px;
+  }
 `;
 
 export const LeftBoxText = styled.p`
@@ -240,4 +375,12 @@ export const LeftBoxText = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: 177.778%;
+
+  @media screen and (max-width: 405px) {
+    font-size: 16px;
+  }
+`;
+
+export const LeftBoxAccent = styled.span`
+  font-weight: 700;
 `;

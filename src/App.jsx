@@ -5,6 +5,7 @@ import {
   Container,
   FadeBackground,
   FooterBackground,
+  FooterContainer,
 } from "./App.styled";
 import { Hero } from "./components/Hero/Hero";
 import { Traffic } from "./components/Traffic/Traffic";
@@ -32,9 +33,9 @@ export function App() {
         </Container>
       </FadeBackground>
       <FooterBackground>
-        <Container>
+        <FooterContainer>
           <Footer />
-        </Container>
+        </FooterContainer>
       </FooterBackground>
     </Background>
   );

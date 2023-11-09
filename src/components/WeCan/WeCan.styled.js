@@ -5,15 +5,29 @@ import background2 from "../../assets/images/item2.png";
 import background3 from "../../assets/images/item3.png";
 import background4 from "../../assets/images/item4.png";
 import background5 from "../../assets/images/item5.png";
+import backgroundMobile1 from "../../assets/images/item1Mobile.png";
+import backgroundMobile2 from "../../assets/images/item2Mobile.png";
+import backgroundMobile3 from "../../assets/images/item3Mobile.png";
+import backgroundMobile4 from "../../assets/images/item4Mobile.png";
+import backgroundMobile5 from "../../assets/images/item5Mobile.png";
 
 export const Section = styled.section`
   padding: 79px 0 100px;
+
+  @media screen and (max-width: 481px) {
+    padding: 100px 0 70px;
+  }
 `;
 
 export const ItemsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
+
+  @media screen and (max-width: 481px) {
+    align-items: center;
+    gap: 20px;
+  }
 `;
 
 export const Title = styled.p`
@@ -23,6 +37,14 @@ export const Title = styled.p`
   font-style: normal;
   font-weight: 700;
   line-height: 111.111%;
+
+  @media screen and (max-width: 481px) {
+    font-size: 48px;
+  }
+
+  @media screen and (max-width: 426px) {
+    font-size: 45px;
+  }
 `;
 
 export const AccentTitle = styled.span`
@@ -35,6 +57,7 @@ export const AccentTitle = styled.span`
 export const Description = styled.p`
   max-width: 927px;
   width: 100%;
+  margin-top: 12px;
   margin-left: auto;
   margin-bottom: 32px;
 
@@ -45,10 +68,107 @@ export const Description = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: 177.778%;
+
+  @media screen and (max-width: 481px) {
+    display: none;
+  }
+`;
+
+export const DescriptionMobile = styled.p`
+  max-width: 387px;
+  width: 100%;
+  margin-top: 24px;
+  margin-left: 0;
+  margin-bottom: 36px;
+  text-align: left;
+  color: ${theme.white};
+  font-family: "Axiforma";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.778%;
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
 `;
 
 export const AccentDescription = styled.span`
   font-weight: 700;
+`;
+
+export const InfoItem = styled.div`
+  max-width: 390px;
+  width: 100%;
+  height: 189px;
+  padding: 43px 22px 0 30px;
+
+  border-radius: 18px;
+  background-color: ${theme.weCanItem};
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
+`;
+
+export const InfoWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 26px;
+`;
+
+export const InfoTitle = styled.p`
+  color: ${theme.blue};
+  font-family: "Axiforma";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 97.767%;
+
+  @media screen and (max-width: 370px) {
+    font-size: 26px;
+  }
+
+  @media screen and (max-width: 340px) {
+    font-size: 23px;
+  }
+`;
+
+export const InfoText = styled.p`
+  max-width: 218px;
+  width: 100%;
+  color: ${theme.grey};
+  font-family: "Axiforma";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.778%;
+
+  @media screen and (max-width: 385px) {
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 370px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 355px) {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 340px) {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 325px) {
+    font-size: 13.5px;
+  }
+`;
+
+export const TextWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 `;
 
 export const Item1 = styled.div`
@@ -71,6 +191,15 @@ export const Item1 = styled.div`
       transition-timing-function: easy-out;
     }
   }
+
+  @media screen and (max-width: 481px) {
+    padding-right: 0;
+    padding-bottom: 0;
+    max-width: 390px;
+    height: 480px;
+    background-size: 100%;
+    background-image: url(${backgroundMobile1});
+  }
 `;
 
 export const Item1Replace = styled.img`
@@ -87,6 +216,30 @@ export const Item1Replace = styled.img`
   transition: opacity 0.3s;
   transition-timing-function: easy-out;
   border: 2px solid ${theme.white};
+
+  @media screen and (max-width: 481px) {
+    display: none;
+  }
+`;
+
+export const Item1ReplaceMobile = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 390px;
+  width: 100%;
+  height: 480px;
+  cursor: pointer;
+  border-radius: 18px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  transition-timing-function: easy-out;
+  border: 2px solid ${theme.white};
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
 `;
 
 export const Item2 = styled.div`
@@ -109,6 +262,15 @@ export const Item2 = styled.div`
       transition-timing-function: easy-out;
     }
   }
+
+  @media screen and (max-width: 481px) {
+    padding-right: 0;
+    padding-bottom: 0;
+    max-width: 390px;
+    height: 370px;
+    background-size: 100%;
+    background-image: url(${backgroundMobile2});
+  }
 `;
 
 export const Item2Replace = styled.img`
@@ -125,6 +287,30 @@ export const Item2Replace = styled.img`
   transition: opacity 0.3s;
   transition-timing-function: easy-out;
   border: 2px solid ${theme.white};
+
+  @media screen and (max-width: 481px) {
+    display: none;
+  }
+`;
+
+export const Item2ReplaceMobile = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 390px;
+  width: 100%;
+  height: 370px;
+  cursor: pointer;
+  border-radius: 18px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  transition-timing-function: easy-out;
+  border: 2px solid ${theme.white};
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
 `;
 
 export const Item3 = styled.div`
@@ -147,6 +333,15 @@ export const Item3 = styled.div`
       transition-timing-function: easy-out;
     }
   }
+
+  @media screen and (max-width: 481px) {
+    padding-right: 0;
+    padding-bottom: 0;
+    max-width: 390px;
+    height: 480px;
+    background-size: 100%;
+    background-image: url(${backgroundMobile3});
+  }
 `;
 
 export const Item3Replace = styled.img`
@@ -163,6 +358,30 @@ export const Item3Replace = styled.img`
   transition: opacity 0.3s;
   transition-timing-function: easy-out;
   border: 2px solid ${theme.white};
+
+  @media screen and (max-width: 481px) {
+    display: none;
+  }
+`;
+
+export const Item3ReplaceMobile = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 390px;
+  width: 100%;
+  height: 480px;
+  cursor: pointer;
+  border-radius: 18px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  transition-timing-function: easy-out;
+  border: 2px solid ${theme.white};
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
 `;
 
 export const Item4 = styled.div`
@@ -185,6 +404,15 @@ export const Item4 = styled.div`
       transition-timing-function: easy-out;
     }
   }
+
+  @media screen and (max-width: 481px) {
+    padding-right: 0;
+    padding-bottom: 0;
+    max-width: 390px;
+    height: 460px;
+    background-size: 100%;
+    background-image: url(${backgroundMobile4});
+  }
 `;
 
 export const Item4Replace = styled.img`
@@ -201,6 +429,30 @@ export const Item4Replace = styled.img`
   transition: opacity 0.3s;
   transition-timing-function: easy-out;
   border: 2px solid ${theme.white};
+
+  @media screen and (max-width: 481px) {
+    display: none;
+  }
+`;
+
+export const Item4ReplaceMobile = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 390px;
+  width: 100%;
+  height: 460px;
+  cursor: pointer;
+  border-radius: 18px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  transition-timing-function: easy-out;
+  border: 2px solid ${theme.white};
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
 `;
 
 export const Item5 = styled.div`
@@ -223,6 +475,15 @@ export const Item5 = styled.div`
       transition-timing-function: easy-out;
     }
   }
+
+  @media screen and (max-width: 481px) {
+    padding-right: 0;
+    padding-bottom: 0;
+    max-width: 390px;
+    height: 460px;
+    background-size: 100%;
+    background-image: url(${backgroundMobile5});
+  }
 `;
 
 export const Item5Replace = styled.img`
@@ -239,6 +500,30 @@ export const Item5Replace = styled.img`
   transition: opacity 0.3s;
   transition-timing-function: easy-out;
   border: 2px solid ${theme.white};
+
+  @media screen and (max-width: 481px) {
+    display: none;
+  }
+`;
+
+export const Item5ReplaceMobile = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 390px;
+  width: 100%;
+  height: 460px;
+  cursor: pointer;
+  border-radius: 18px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  transition-timing-function: easy-out;
+  border: 2px solid ${theme.white};
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
 `;
 
 export const NameContainer = styled.div`
@@ -302,11 +587,22 @@ export const Text1 = styled.p`
 export const TopItemsWrapper = styled.div`
   display: flex;
   gap: 24px;
+
+  @media screen and (max-width: 481px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `;
 
 export const BottomItemsWrapper = styled.div`
   display: flex;
   gap: 24px;
+
+  @media screen and (max-width: 481px) {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
 `;
 
 export const RightItemsWrapper = styled.div`
@@ -314,6 +610,10 @@ export const RightItemsWrapper = styled.div`
   flex-direction: column;
   width: 100%;
   gap: 24px;
+
+  @media screen and (max-width: 481px) {
+    gap: 20px;
+  }
 `;
 
 export const Text2 = styled.p`

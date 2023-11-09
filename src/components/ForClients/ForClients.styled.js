@@ -3,11 +3,20 @@ import { theme } from "../../utils/theme";
 
 export const Section = styled.section`
   padding: 140px 0 111px;
+
+  @media screen and (max-width: 481px) {
+    padding: 75px 0 112px;
+  }
 `;
 
 export const TextWrapper = styled.div`
   display: flex;
   margin-bottom: 108px;
+
+  @media screen and (max-width: 481px) {
+    margin-bottom: 60px;
+    flex-direction: column-reverse;
+  }
 `;
 
 export const Title = styled.p`
@@ -19,6 +28,18 @@ export const Title = styled.p`
   font-style: normal;
   font-weight: 700;
   line-height: 111.111%;
+
+  @media screen and (max-width: 481px) {
+    margin-bottom: 24px;
+    flex-direction: column-reverse;
+
+    text-align: right;
+    font-size: 45px;
+  }
+
+  @media screen and (max-width: 325px) {
+    font-size: 42px;
+  }
 `;
 
 export const Description = styled.p`
@@ -41,6 +62,12 @@ export const Icon = styled.svg`
 export const ItemWrapper = styled.div`
   display: flex;
   gap: 74px;
+
+  @media screen and (max-width: 481px) {
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
 `;
 
 export const Item = styled.div`
@@ -51,6 +78,13 @@ export const Item = styled.div`
   max-width: 242px;
   width: 100%;
   height: 364px;
+
+  @media screen and (max-width: 481px) {
+    min-height: 268px;
+    height: auto;
+    max-width: 390px;
+    align-items: center;
+  }
 `;
 
 export const ItemTitle = styled.p`
@@ -71,4 +105,8 @@ export const ItemDescription = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: 177.778%;
+
+  @media screen and (max-width: 481px) {
+    text-align: center;
+  }
 `;

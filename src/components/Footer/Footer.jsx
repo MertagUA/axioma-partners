@@ -1,7 +1,11 @@
 import {
+  Bottom,
   Button,
   FooterStyled,
+  GreyText,
   IconTextWrapper,
+  Image,
+  ImageMobile,
   LeftText,
   LeftWrapper,
   Mail,
@@ -10,6 +14,7 @@ import {
   Wrapper,
 } from "./Footer.styled";
 import logo from "../../assets/images/logo.webp";
+import logoMobile from "../../assets/images/logoFooter.png";
 import sprite from "../../assets/images/sprite.svg";
 
 export const Footer = () => {
@@ -17,14 +22,25 @@ export const Footer = () => {
     <FooterStyled>
       <Wrapper>
         <LeftWrapper>
-          <img
+          <Image
             src={logo}
             alt="logotype axioma partners"
             width={"147px"}
             height={"64.3px"}
+            loading="lazy"
+          />
+          <ImageMobile
+            src={logoMobile}
+            alt="logotype axioma partners"
+            width={"147px"}
+            height={"64.3px"}
+            loading="lazy"
           />
           <LeftText>
-            Ваш успіх - наша мета, і ми завжди готові допомогти вам досягти його
+            Ваш усп<span className="ukrainianWordRegular">і</span>х - наша мета,
+            <span className="ukrainianWordRegular"> і</span> ми завжди готов
+            <span className="ukrainianWordRegular">і </span>
+            допомогти вам досягти його
           </LeftText>
         </LeftWrapper>
         <RightWrapper>
@@ -44,6 +60,10 @@ export const Footer = () => {
           </a>
         </RightWrapper>
       </Wrapper>
+      <Bottom>
+        <GreyText>© 2023 Axioma Partners</GreyText>
+        <GreyText>All rights reserved!</GreyText>
+      </Bottom>
     </FooterStyled>
   );
 };
