@@ -23,6 +23,7 @@ import {
   Item5,
   Item5Replace,
   Item5ReplaceMobile,
+  ItemInfoReplaceMobidle,
   ItemsContainer,
   Name1,
   Name2,
@@ -51,11 +52,12 @@ import mobileReplace2 from "../../assets/images/item2ReplaceMobile.png";
 import mobileReplace3 from "../../assets/images/item3ReplaceMobile.png";
 import mobileReplace4 from "../../assets/images/item4ReplaceMobile.png";
 import mobileReplace5 from "../../assets/images/item5ReplaceMobile.png";
+import mobileReplaceInfo from "../../assets/images/itemClick.png";
 
 export const WeCan = () => {
   return (
     <Section name="we-can">
-      <Title>
+      <Title className="text text--enter" data-scroll="out" data-splitting="">
         ЩО МИ <AccentTitle>МОЖЕМО ?</AccentTitle>
       </Title>
       <Description>
@@ -97,6 +99,12 @@ export const WeCan = () => {
       <ItemsContainer>
         <TopItemsWrapper>
           <InfoItem>
+            <ItemInfoReplaceMobidle
+              src={mobileReplaceInfo}
+              alt="information"
+              className="imgInfo"
+              loading="lazy"
+            />
             <InfoWrapper>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +139,12 @@ export const WeCan = () => {
             </InfoWrapper>
           </InfoItem>
           <Item1>
-            <Item1Replace src={replace1} alt="landings" className="img1" />
+            <Item1Replace
+              src={replace1}
+              alt="landings"
+              className="img1"
+              loading="lazy"
+            />
             <Item1ReplaceMobile
               src={mobileReplace1}
               alt="landings"
@@ -142,9 +155,7 @@ export const WeCan = () => {
               <svg width={44} height={44}>
                 <use href={sprite + "#icon-square"}></use>
               </svg>
-              <Name1>
-                ЛЕНД<span className="ukrainianWordBlack">і</span>НГИ
-              </Name1>
+              <Name1>ЛЕНДІНГИ</Name1>
             </NameContainer>
             <Text1>
               Ми створю<span className="ukrainianWordMedium">є</span>мо стор
@@ -158,7 +169,12 @@ export const WeCan = () => {
             </Text1>
           </Item1>
           <Item2>
-            <Item2Replace src={replace2} alt="craters" className="img2" />
+            <Item2Replace
+              src={replace2}
+              alt="craters"
+              className="img2"
+              loading="lazy"
+            />
             <Item2ReplaceMobile
               src={mobileReplace2}
               alt="craters"
@@ -182,7 +198,12 @@ export const WeCan = () => {
         </TopItemsWrapper>
         <BottomItemsWrapper>
           <Item3>
-            <Item3Replace src={replace3} alt="mails" className="img3" />
+            <Item3Replace
+              src={replace3}
+              alt="mails"
+              className="img3"
+              loading="lazy"
+            />
             <Item3ReplaceMobile
               src={mobileReplace3}
               alt="mails"
@@ -206,7 +227,12 @@ export const WeCan = () => {
           </Item3>
           <RightItemsWrapper>
             <Item4>
-              <Item4Replace src={replace4} alt="mailing" className="img4" />
+              <Item4Replace
+                src={replace4}
+                alt="mailing"
+                className="img4"
+                loading="lazy"
+              />
               <Item4ReplaceMobile
                 src={mobileReplace4}
                 alt="mailing"
@@ -231,7 +257,12 @@ export const WeCan = () => {
               </Text4>
             </Item4>
             <Item5>
-              <Item5Replace src={replace5} alt="creatives" className="img5" />
+              <Item5Replace
+                src={replace5}
+                alt="creatives"
+                className="img5"
+                loading="lazy"
+              />
               <Item5ReplaceMobile
                 src={mobileReplace5}
                 alt="creatives"

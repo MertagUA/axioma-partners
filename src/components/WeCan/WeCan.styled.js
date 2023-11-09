@@ -98,6 +98,7 @@ export const AccentDescription = styled.span`
 `;
 
 export const InfoItem = styled.div`
+  position: relative;
   max-width: 390px;
   width: 100%;
   height: 189px;
@@ -106,15 +107,26 @@ export const InfoItem = styled.div`
   border-radius: 18px;
   background-color: ${theme.weCanItem};
 
-  @media screen and (min-width: 481px) {
+ @media screen and (min-width: 481px) {
     display: none;
   }
+
+  &:hover {
+    .imgInfo {
+      opacity: 1;
+      transition: opacity 0.3s;
+      transition-timing-function: easy-out;
+    }
 `;
 
 export const InfoWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 26px;
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
 `;
 
 export const InfoTitle = styled.p`
@@ -162,6 +174,26 @@ export const InfoText = styled.p`
 
   @media screen and (max-width: 325px) {
     font-size: 13.5px;
+  }
+`;
+
+export const ItemInfoReplaceMobidle = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 390px;
+  width: 100%;
+  height: 189px;
+  cursor: pointer;
+  border-radius: 18px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  transition-timing-function: easy-out;
+  border: 2px solid ${theme.white};
+
+  @media screen and (min-width: 481px) {
+    display: none;
   }
 `;
 

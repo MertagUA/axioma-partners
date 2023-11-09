@@ -46,6 +46,22 @@ export const NavLink = styled.p`
   line-height: 162.5%;
 `;
 
+export const BurgerMenuWrapper = styled.div`
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+
+  z-index: 1200;
+
+  @media screen and (min-width: 481px) {
+    display: none;
+  }
+`;
+
 export const NavLinkMobile = styled.p`
   color: #fff;
   font-family: "Axiforma";
@@ -64,21 +80,6 @@ export const NavLinkMobile = styled.p`
   }
 `;
 
-export const BurgerMenuWrapper = styled.div`
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: end;
-
-  z-index: 1200;
-  @media screen and (min-width: 481px) {
-    display: none;
-  }
-`;
-
 export const BurgerMenu = styled.div`
   background-image: url(${mobileBg});
   background-repeat: no-repeat;
@@ -92,6 +93,7 @@ export const BurgerMenu = styled.div`
   align-items: end;
   gap: 45px;
   z-index: 1201;
+
   @media screen and (min-width: 481px) {
     display: none;
   }

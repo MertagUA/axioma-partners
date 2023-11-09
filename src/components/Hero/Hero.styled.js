@@ -67,7 +67,7 @@ export const TitleBottom = styled.p`
   text-align: right;
   @media screen and (max-width: 481px) {
     position: absolute;
-    top: 145px;
+    top: 140px;
     right: 0;
     font-size: 45px;
     line-height: 177.778%;

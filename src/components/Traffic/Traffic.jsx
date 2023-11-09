@@ -636,7 +636,7 @@ export const Traffic = () => {
             зувати
             <LeftBoxAccent>
               {" "}
-              ваш потенц<span className="ukrainianWordMedium">і</span>ал{" "}
+              ваш потенц<span className="ukrainianWordBold">і</span>ал{" "}
             </LeftBoxAccent>
             та досягати видатних результат
             <span className="ukrainianWordMedium">і</span>в

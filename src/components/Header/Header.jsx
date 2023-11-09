@@ -22,96 +22,96 @@ export const Header = () => {
   };
 
   const openModal = () => {
+    console.log("object");
     setIsOpen(true);
   };
   return (
     <>
-      {isOpen && (
-        <BurgerMenuWrapper
-          id="wrapper"
-          onClick={(e) => {
-            if (e.target.id === "wrapper") {
-              closeModal();
-            }
-          }}
-        >
-          <BurgerMenu id="menu">
-            <BurgerButton type="button" onClick={closeModal}>
-              <svg width={46} height={46}>
-                <use href={sprite + "#icon-close"}></use>
-              </svg>
-            </BurgerButton>
-            <NavMobileList>
-              <li>
-                <Link
-                  to="traffic"
-                  spy={true}
-                  smooth={true}
-                  duration={300}
-                  onClick={closeModal}
-                >
-                  <NavLinkMobile>
-                    траф<span className="ukrainianWordMedium">і</span>к
-                  </NavLinkMobile>
-                </Link>
-              </li>
-              <Line></Line>
-              <li>
-                <Link
-                  to="we-can"
-                  spy={true}
-                  smooth={true}
-                  duration={450}
-                  onClick={closeModal}
-                >
-                  <NavLinkMobile>ми можемо</NavLinkMobile>
-                </Link>
-              </li>
-              <Line></Line>
-              <li>
-                <Link
-                  to="clients"
-                  spy={true}
-                  smooth={true}
-                  duration={600}
-                  onClick={closeModal}
-                >
-                  <NavLinkMobile>
-                    кл<span className="ukrainianWordMedium">іє</span>нти
-                  </NavLinkMobile>
-                </Link>
-              </li>
-              <Line></Line>
-              <li>
-                <Link
-                  to="partners"
-                  spy={true}
-                  smooth={true}
-                  duration={750}
-                  onClick={closeModal}
-                >
-                  <NavLinkMobile>партнери</NavLinkMobile>
-                </Link>
-              </li>
-              <Line></Line>
-              <li>
-                <Link
-                  to="for-clients"
-                  spy={true}
-                  smooth={true}
-                  duration={850}
-                  onClick={closeModal}
-                >
-                  <NavLinkMobile>
-                    для кл<span className="ukrainianWordMedium">іє</span>нт
-                    <span className="ukrainianWordMedium">і</span>в
-                  </NavLinkMobile>
-                </Link>
-              </li>
-            </NavMobileList>
-          </BurgerMenu>
-        </BurgerMenuWrapper>
-      )}
+      <BurgerMenuWrapper
+        id="wrapper"
+        onClick={(e) => {
+          if (e.target.id === "wrapper") {
+            closeModal();
+          }
+        }}
+        className={isOpen ? "visible" : "header-animation"}
+      >
+        <BurgerMenu id="menu">
+          <BurgerButton type="button" onClick={closeModal}>
+            <svg width={46} height={46}>
+              <use href={sprite + "#icon-close"}></use>
+            </svg>
+          </BurgerButton>
+          <NavMobileList>
+            <li>
+              <Link
+                to="traffic"
+                spy={true}
+                smooth={true}
+                duration={300}
+                onClick={closeModal}
+              >
+                <NavLinkMobile>
+                  траф<span className="ukrainianWordMedium">і</span>к
+                </NavLinkMobile>
+              </Link>
+            </li>
+            <Line></Line>
+            <li>
+              <Link
+                to="we-can"
+                spy={true}
+                smooth={true}
+                duration={450}
+                onClick={closeModal}
+              >
+                <NavLinkMobile>ми можемо</NavLinkMobile>
+              </Link>
+            </li>
+            <Line></Line>
+            <li>
+              <Link
+                to="clients"
+                spy={true}
+                smooth={true}
+                duration={600}
+                onClick={closeModal}
+              >
+                <NavLinkMobile>
+                  кл<span className="ukrainianWordMedium">іє</span>нти
+                </NavLinkMobile>
+              </Link>
+            </li>
+            <Line></Line>
+            <li>
+              <Link
+                to="partners"
+                spy={true}
+                smooth={true}
+                duration={750}
+                onClick={closeModal}
+              >
+                <NavLinkMobile>партнери</NavLinkMobile>
+              </Link>
+            </li>
+            <Line></Line>
+            <li>
+              <Link
+                to="for-clients"
+                spy={true}
+                smooth={true}
+                duration={850}
+                onClick={closeModal}
+              >
+                <NavLinkMobile>
+                  для кл<span className="ukrainianWordMedium">іє</span>нт
+                  <span className="ukrainianWordMedium">і</span>в
+                </NavLinkMobile>
+              </Link>
+            </li>
+          </NavMobileList>
+        </BurgerMenu>
+      </BurgerMenuWrapper>
       <Nav>
         <div>
           <img

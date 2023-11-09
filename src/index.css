@@ -153,3 +153,25 @@ code {
   font-family: "Gilroy";
   font-weight: 400;
 }
+
+@keyframes slideBack {
+  0% {
+    transform: translateX(310px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.visible {
+  transform: translateX(0);
+  pointer-events: all;
+  transition: all 0.6s ease-in-out;
+}
+
+.header-animation {
+  pointer-events: none;
+  transform: translateX(480px);
+  transition: all 0.6s ease-in-out;
+}

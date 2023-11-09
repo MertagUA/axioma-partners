@@ -111,6 +111,10 @@ export const Description = styled.p`
   line-height: 177.778%;
 
   @media screen and (max-width: 481px) {
+    margin-top: 24px;
+  }
+
+  @media screen and (max-width: 481px) {
     max-width: 390px;
   }
 

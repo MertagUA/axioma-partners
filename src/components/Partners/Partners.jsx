@@ -23,7 +23,7 @@ export const Partners = () => {
   return (
     <Section name="partners">
       <Title>
-        СП<span className="ukrainianWordBold">і</span>ВПРАЦЯ
+        СПIВПРАЦЯ
         <Accent> З БРЕНДАМИ</Accent>
       </Title>
       <Description>
