@@ -4,6 +4,10 @@ import { theme } from "../../utils/theme";
 export const Section = styled.section`
   position: relative;
   padding: 41px 0 181px;
+
+  @media screen and (max-width: 481px) {
+    padding: 24px 0 181px;
+  }
 `;
 
 export const TopText = styled.p`
@@ -20,7 +24,7 @@ export const TopText = styled.p`
   line-height: 160%;
 
   @media screen and (max-width: 481px) {
-    margin-bottom: 6px;
+    margin-bottom: 0;
     padding-left: 0;
   }
 `;
@@ -35,7 +39,7 @@ export const Title = styled.p`
   text-align: right;
 
   @media screen and (max-width: 481px) {
-    margin-bottom: 115px;
+    margin-bottom: 75px;
     text-align: left;
     font-size: 45px;
     line-height: 111.111%;
@@ -67,6 +71,7 @@ export const TitleBottom = styled.p`
     right: 0;
     font-size: 45px;
     line-height: 177.778%;
+    margin-top: 0;
   }
 
   @media screen and (max-width: 360px) {

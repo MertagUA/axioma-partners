@@ -17,13 +17,12 @@ export const ForClients = () => {
       <TextWrapper>
         <Description>
           Ми прагнемо надавати нашим кл
-          <span className="ukrainianWordRegular">іє</span>нтам найкращ
-          <span className="ukrainianWordRegular">і</span> умови сп
-          <span className="ukrainianWordRegular">і</span>впрац
-          <span className="ukrainianWordRegular">і</span>, а наща п
-          <span className="ukrainianWordRegular">і</span>дтримка завжди готова
-          надати необх<span className="ukrainianWordRegular">і</span>дну
-          допомогу
+          <span className="ukrainianWordMedium">іє</span>нтам найкращ
+          <span className="ukrainianWordMedium">і</span> умови сп
+          <span className="ukrainianWordMedium">і</span>впрац
+          <span className="ukrainianWordMedium">і</span>, а наща п
+          <span className="ukrainianWordMedium">і</span>дтримка завжди готова
+          надати необх<span className="ukrainianWordMedium">і</span>дну допомогу
         </Description>
         <Title>
           ДЛЯ НАШИХ КЛI<span className="ukrainianWordBold">Є</span>НТ
@@ -40,11 +39,11 @@ export const ForClients = () => {
             <span className="ukrainianWordBold">і</span>я виплат
           </ItemTitle>
           <ItemDescription>
-            Ми гаранту<span className="ukrainianWordRegular">є</span>мо
-            ефективну орган<span className="ukrainianWordRegular">і</span>зац
-            <span className="ukrainianWordRegular">і</span>ю виплат та забезпечу
-            <span className="ukrainianWordRegular">є</span>м швидкий та над
-            <span className="ukrainianWordRegular">і</span>йний доступ до свого
+            Ми гаранту<span className="ukrainianWordMedium">є</span>мо ефективну
+            орган<span className="ukrainianWordMedium">і</span>зац
+            <span className="ukrainianWordMedium">і</span>ю виплат та забезпечу
+            <span className="ukrainianWordMedium">є</span>м швидкий та над
+            <span className="ukrainianWordMedium">і</span>йний доступ до свого
             прибутку
           </ItemDescription>
         </Item>
@@ -54,12 +53,12 @@ export const ForClients = () => {
           </Icon>
           <ItemTitle>Кращий CPA rate</ItemTitle>
           <ItemDescription>
-            Наш<span className="ukrainianWordRegular">і</span> CPA ставки одн
-            <span className="ukrainianWordRegular">і</span> з найвищих на ринку,
-            що дозволя<span className="ukrainianWordRegular">є</span> нашим
-            партнерам максим<span className="ukrainianWordRegular">і</span>
-            зувати св<span className="ukrainianWordRegular">і</span>й дох
-            <span className="ukrainianWordRegular">і</span>д
+            Наш<span className="ukrainianWordMedium">і</span> CPA ставки одн
+            <span className="ukrainianWordMedium">і</span> з найвищих на ринку,
+            що дозволя<span className="ukrainianWordMedium">є</span> нашим
+            партнерам максим<span className="ukrainianWordMedium">і</span>
+            зувати св<span className="ukrainianWordMedium">і</span>й дох
+            <span className="ukrainianWordMedium">і</span>д
           </ItemDescription>
         </Item>
         <Item>
@@ -71,19 +70,19 @@ export const ForClients = () => {
             <span className="ukrainianWordBold">і</span> умови
           </ItemTitle>
           <ItemDescription>
-            Ми пропону<span className="ukrainianWordRegular">є</span>мо
-            <span className="ukrainianWordRegular"> і</span>ндив
-            <span className="ukrainianWordRegular">і</span>дуальн
-            <span className="ukrainianWordRegular">і</span> умови сп
-            <span className="ukrainianWordRegular">і</span>впрац
-            <span className="ukrainianWordRegular">і</span> для кожного кл
-            <span className="ukrainianWordRegular">іє</span>нта, враховуючи{" "}
-            <span className="ukrainianWordRegular">ї</span>хн
-            <span className="ukrainianWordRegular">і</span> ун
-            <span className="ukrainianWordRegular">і</span>кальн
-            <span className="ukrainianWordRegular">і</span> потреби та ц
-            <span className="ukrainianWordRegular">і</span>л
-            <span className="ukrainianWordRegular">і</span>
+            Ми пропону<span className="ukrainianWordMedium">є</span>мо
+            <span className="ukrainianWordMedium"> і</span>ндив
+            <span className="ukrainianWordMedium">і</span>дуальн
+            <span className="ukrainianWordMedium">і</span> умови сп
+            <span className="ukrainianWordMedium">і</span>впрац
+            <span className="ukrainianWordMedium">і</span> для кожного кл
+            <span className="ukrainianWordMedium">іє</span>нта, враховуючи{" "}
+            <span className="ukrainianWordMedium">ї</span>хн
+            <span className="ukrainianWordMedium">і</span> ун
+            <span className="ukrainianWordMedium">і</span>кальн
+            <span className="ukrainianWordMedium">і</span> потреби та ц
+            <span className="ukrainianWordMedium">і</span>л
+            <span className="ukrainianWordMedium">і</span>
           </ItemDescription>
         </Item>
         <Item>
@@ -95,11 +94,11 @@ export const ForClients = () => {
           </ItemTitle>
           <ItemDescription>
             Наша команда готова надати 24/7 п
-            <span className="ukrainianWordRegular">і</span>дтримку, гарантуючи,
-            що ус<span className="ukrainianWordRegular">і</span> ваш
-            <span className="ukrainianWordRegular">і</span> запити та питання
+            <span className="ukrainianWordMedium">і</span>дтримку, гарантуючи,
+            що ус<span className="ukrainianWordMedium">і</span> ваш
+            <span className="ukrainianWordMedium">і</span> запити та питання
             обслуговуються вчасно та профес
-            <span className="ukrainianWordRegular">і</span>йно
+            <span className="ukrainianWordMedium">і</span>йно
           </ItemDescription>
         </Item>
       </ItemWrapper>

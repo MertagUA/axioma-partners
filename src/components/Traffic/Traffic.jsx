@@ -45,8 +45,8 @@ export const Traffic = () => {
         <Link to="traffic" spy={true} smooth={true} duration={300}>
           <Button type="button">
             <ButtonText>
-              Д<span className="ukrainianWordRegular">і</span>знатись б
-              <span className="ukrainianWordRegular">і</span>льше
+              Д<span className="ukrainianWordBold">і</span>знатись б
+              <span className="ukrainianWordBold">і</span>льше
             </ButtonText>
             <svg width={32} height={32}>
               <use href={sprite + "#icon-arrowDown"}></use>
@@ -61,19 +61,18 @@ export const Traffic = () => {
             З ТРАФIК <TitleSpan>СОРСАМИ</TitleSpan>
           </Title>
           <Description>
-            Ми ма<span className="ukrainianWordRegular">є</span>мо усп
-            <span className="ukrainianWordRegular">i</span>шний досв
-            <span className="ukrainianWordRegular">i</span>д привертання та
-            конвертац<span className="ukrainianWordRegular">ії</span> траф
-            <span className="ukrainianWordRegular">i</span>ку з ус
-            <span className="ukrainianWordRegular">i</span>х основних соц
-            <span className="ukrainianWordRegular">i</span>альних мереж, таких
-            як{" "}
+            Ми ма<span className="ukrainianWordMedium">є</span>мо усп
+            <span className="ukrainianWordMedium">i</span>шний досв
+            <span className="ukrainianWordMedium">i</span>д привертання та
+            конвертац<span className="ukrainianWordMedium">ії</span> траф
+            <span className="ukrainianWordMedium">i</span>ку з ус
+            <span className="ukrainianWordMedium">i</span>х основних соц
+            <span className="ukrainianWordMedium">i</span>альних мереж, таких як{" "}
             <Accent>
               YouTube, TikTok, Instagram{" "}
               <span className="ukrainianWordBold">i</span> Facebook{" "}
             </Accent>
-            <span className="ukrainianWordRegular">i</span> тд
+            <span className="ukrainianWordMedium">i</span> тд
           </Description>
         </TextWrapper>
         <MiddleWrapper>
@@ -631,16 +630,16 @@ export const Traffic = () => {
         </IconsMobileWrapper>
         <LeftBox>
           <LeftBoxText>
-            Наша експертн<span className="ukrainianWordRegular">і</span>сть
-            дозволя<span className="ukrainianWordRegular">є</span> максим
-            <span className="ukrainianWordRegular">і</span>
+            Наша експертн<span className="ukrainianWordMedium">і</span>сть
+            дозволя<span className="ukrainianWordMedium">є</span> максим
+            <span className="ukrainianWordMedium">і</span>
             зувати
             <LeftBoxAccent>
               {" "}
-              ваш потенц<span className="ukrainianWordRegular">і</span>ал{" "}
+              ваш потенц<span className="ukrainianWordMedium">і</span>ал{" "}
             </LeftBoxAccent>
             та досягати видатних результат
-            <span className="ukrainianWordRegular">і</span>в
+            <span className="ukrainianWordMedium">і</span>в
           </LeftBoxText>
           <svg width={28} height={28}>
             <use href={sprite + "#icon-star"}></use>

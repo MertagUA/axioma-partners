@@ -60,16 +60,16 @@ export const WeCan = () => {
       </Title>
       <Description>
         Наша команда майстерно впроваджу
-        <span className="ukrainianWordRegular">є</span> вс
-        <span className="ukrainianWordRegular">i</span> необхідн
-        <span className="ukrainianWordRegular">i</span>{" "}
-        <span className="ukrainianWordRegular">i</span>нструменти та стратег
-        <span className="ukrainianWordRegular">iї</span>, включаючи воронки
-        продаж<span className="ukrainianWordRegular">i</span>в, створення
-        креатив<span className="ukrainianWordRegular">i</span>в, ленд
-        <span className="ukrainianWordRegular">i</span>нг
-        <span className="ukrainianWordRegular">i</span>в{" "}
-        <span className="ukrainianWordRegular">i</span> ефективну електронну
+        <span className="ukrainianWordMedium">є</span> вс
+        <span className="ukrainianWordMedium">i</span> необхідн
+        <span className="ukrainianWordMedium">i</span>{" "}
+        <span className="ukrainianWordMedium">i</span>нструменти та стратег
+        <span className="ukrainianWordMedium">iї</span>, включаючи воронки
+        продаж<span className="ukrainianWordMedium">i</span>в, створення креатив
+        <span className="ukrainianWordMedium">i</span>в, ленд
+        <span className="ukrainianWordMedium">i</span>нг
+        <span className="ukrainianWordMedium">i</span>в{" "}
+        <span className="ukrainianWordMedium">i</span> ефективну електронну
         пошту, для досягнення ваших{" "}
         <AccentDescription>
           рекламних ц<span className="ukrainianWordBold">i</span>лей
@@ -81,11 +81,11 @@ export const WeCan = () => {
       </Description>
       <DescriptionMobile>
         Наша команда майстерно впроваджу
-        <span className="ukrainianWordRegular">є</span> вс
-        <span className="ukrainianWordRegular">i</span> необхідн
-        <span className="ukrainianWordRegular">i</span>{" "}
-        <span className="ukrainianWordRegular">i</span>нструменти та стратег
-        <span className="ukrainianWordRegular">ії</span>, для досягнення ваших{" "}
+        <span className="ukrainianWordMedium">є</span> вс
+        <span className="ukrainianWordMedium">i</span> необхідн
+        <span className="ukrainianWordMedium">i</span>{" "}
+        <span className="ukrainianWordMedium">i</span>нструменти та стратег
+        <span className="ukrainianWordMedium">ії</span>, для досягнення ваших{" "}
         <AccentDescription>
           рекламних ц<span className="ukrainianWordBold">i</span>лей
         </AccentDescription>{" "}
@@ -147,14 +147,14 @@ export const WeCan = () => {
               </Name1>
             </NameContainer>
             <Text1>
-              Ми створю<span className="ukrainianWordRegular">є</span>мо стор
-              <span className="ukrainianWordRegular">і</span>
+              Ми створю<span className="ukrainianWordMedium">є</span>мо стор
+              <span className="ukrainianWordMedium">і</span>
               нки, що перетворюють в
-              <span className="ukrainianWordRegular">і</span>дв
-              <span className="ukrainianWordRegular">і</span>дувач
-              <span className="ukrainianWordRegular">і</span>в у пост
-              <span className="ukrainianWordRegular">і</span>йну аудитор
-              <span className="ukrainianWordRegular">і</span>ю.
+              <span className="ukrainianWordMedium">і</span>дв
+              <span className="ukrainianWordMedium">і</span>дувач
+              <span className="ukrainianWordMedium">і</span>в у пост
+              <span className="ukrainianWordMedium">і</span>йну аудитор
+              <span className="ukrainianWordMedium">і</span>ю.
             </Text1>
           </Item1>
           <Item2>
@@ -173,10 +173,10 @@ export const WeCan = () => {
             </NameContainer>
             <Text2>
               Що допомагають вам залучити нових гравц
-              <span className="ukrainianWordRegular">і</span>в та п
-              <span className="ukrainianWordRegular">і</span>двищити{" "}
-              <span className="ukrainianWordRegular">ї</span>х конверс
-              <span className="ukrainianWordRegular">і</span>ю
+              <span className="ukrainianWordMedium">і</span>в та п
+              <span className="ukrainianWordMedium">і</span>двищити{" "}
+              <span className="ukrainianWordMedium">ї</span>х конверс
+              <span className="ukrainianWordMedium">і</span>ю
             </Text2>
           </Item2>
         </TopItemsWrapper>
@@ -197,11 +197,11 @@ export const WeCan = () => {
             </NameContainer>
             <Text3>
               Iнструмент для створення зв'язку з вашою аудитор
-              <span className="ukrainianWordRegular">іє</span>ю, щоб надсилати
-              персонал<span className="ukrainianWordRegular">і</span>зован
-              <span className="ukrainianWordRegular">і </span>
-              пов<span className="ukrainianWordRegular">і</span>домлення та
-              пропозиц<span className="ukrainianWordRegular">ії</span>
+              <span className="ukrainianWordMedium">іє</span>ю, щоб надсилати
+              персонал<span className="ukrainianWordMedium">і</span>зован
+              <span className="ukrainianWordMedium">і </span>
+              пов<span className="ukrainianWordMedium">і</span>домлення та
+              пропозиц<span className="ukrainianWordMedium">ії</span>
             </Text3>
           </Item3>
           <RightItemsWrapper>
@@ -220,14 +220,14 @@ export const WeCan = () => {
                 <Name4>РОЗСИЛАННЯ</Name4>
               </NameContainer>
               <Text4>
-                Це не просто пов<span className="ukrainianWordRegular">і</span>
+                Це не просто пов<span className="ukrainianWordMedium">і</span>
                 домлення, а потужний{" "}
-                <span className="ukrainianWordRegular">і</span>нструмент для
-                ретеншину гравц<span className="ukrainianWordRegular">і</span>в
-                та п<span className="ukrainianWordRegular">і</span>дтримки
+                <span className="ukrainianWordMedium">і</span>нструмент для
+                ретеншину гравц<span className="ukrainianWordMedium">і</span>в
+                та п<span className="ukrainianWordMedium">і</span>дтримки
                 зв'язку з ними, щоб ви завжди були на{" "}
-                <span className="ukrainianWordRegular">ї</span>х горизонт
-                <span className="ukrainianWordRegular">і</span>
+                <span className="ukrainianWordMedium">ї</span>х горизонт
+                <span className="ukrainianWordMedium">і</span>
               </Text4>
             </Item4>
             <Item5>
@@ -245,14 +245,14 @@ export const WeCan = () => {
                 <Name1>КРЕАТИВИ</Name1>
               </NameContainer>
               <Text5>
-                Ми розробля<span className="ukrainianWordRegular">є</span>мо
-                креативн<span className="ukrainianWordRegular">і</span> рекламн
-                <span className="ukrainianWordRegular">і </span>
-                матер<span className="ukrainianWordRegular">і</span>али, як
-                <span className="ukrainianWordRegular">і </span>
+                Ми розробля<span className="ukrainianWordMedium">є</span>мо
+                креативн<span className="ukrainianWordMedium">і</span> рекламн
+                <span className="ukrainianWordMedium">і </span>
+                матер<span className="ukrainianWordMedium">і</span>али, як
+                <span className="ukrainianWordMedium">і </span>
                 привертають увагу та вид
-                <span className="ukrainianWordRegular">і</span>ляються серед
-                конкурент<span className="ukrainianWordRegular">і</span>в
+                <span className="ukrainianWordMedium">і</span>ляються серед
+                конкурент<span className="ukrainianWordMedium">і</span>в
               </Text5>
             </Item5>
           </RightItemsWrapper>

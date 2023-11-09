@@ -51,7 +51,7 @@ export const Header = () => {
                   onClick={closeModal}
                 >
                   <NavLinkMobile>
-                    траф<span className="ukrainianWordRegular">і</span>к
+                    траф<span className="ukrainianWordMedium">і</span>к
                   </NavLinkMobile>
                 </Link>
               </li>
@@ -77,7 +77,7 @@ export const Header = () => {
                   onClick={closeModal}
                 >
                   <NavLinkMobile>
-                    кл<span className="ukrainianWordRegular">іє</span>нти
+                    кл<span className="ukrainianWordMedium">іє</span>нти
                   </NavLinkMobile>
                 </Link>
               </li>
@@ -103,8 +103,8 @@ export const Header = () => {
                   onClick={closeModal}
                 >
                   <NavLinkMobile>
-                    для кл<span className="ukrainianWordRegular">іє</span>нт
-                    <span className="ukrainianWordRegular">і</span>в
+                    для кл<span className="ukrainianWordMedium">іє</span>нт
+                    <span className="ukrainianWordMedium">і</span>в
                   </NavLinkMobile>
                 </Link>
               </li>
@@ -130,7 +130,7 @@ export const Header = () => {
           <li>
             <Link to="traffic" spy={true} smooth={true} duration={400}>
               <NavLink>
-                траф<span className="ukrainianWordRegular">і</span>к
+                траф<span className="ukrainianWordMedium">і</span>к
               </NavLink>
             </Link>
           </li>
@@ -142,7 +142,7 @@ export const Header = () => {
           <li>
             <Link to="clients" spy={true} smooth={true} duration={800}>
               <NavLink>
-                кл<span className="ukrainianWordRegular">іє</span>нти
+                кл<span className="ukrainianWordMedium">іє</span>нти
               </NavLink>
             </Link>
           </li>
@@ -154,8 +154,8 @@ export const Header = () => {
           <li>
             <Link to="for-clients" spy={true} smooth={true} duration={900}>
               <NavLink>
-                для кл<span className="ukrainianWordRegular">іє</span>нт
-                <span className="ukrainianWordRegular">і</span>в
+                для кл<span className="ukrainianWordMedium">іє</span>нт
+                <span className="ukrainianWordMedium">і</span>в
               </NavLink>
             </Link>
           </li>

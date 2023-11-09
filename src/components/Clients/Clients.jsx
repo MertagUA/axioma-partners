@@ -30,13 +30,13 @@ export const Clients = () => {
         <Accent> З КРАЩИМИ</Accent>
       </Title>
       <Description>
-        Наша компан<span className="ukrainianWordRegular">і</span>я успішно сп
-        <span className="ukrainianWordRegular">і</span>впрацю
-        <span className="ukrainianWordRegular">є</span> з р
-        <span className="ukrainianWordRegular">і</span>зними сегментами
-        <span className="ukrainianWordRegular"> і</span>ндустр
-        <span className="ukrainianWordRegular">ії</span> азартних{" "}
-        <span className="ukrainianWordRegular">і</span>гор, включаючи{" "}
+        Наша компан<span className="ukrainianWordMedium">і</span>я успішно сп
+        <span className="ukrainianWordMedium">і</span>впрацю
+        <span className="ukrainianWordMedium">є</span> з р
+        <span className="ukrainianWordMedium">і</span>зними сегментами
+        <span className="ukrainianWordMedium"> і</span>ндустр
+        <span className="ukrainianWordMedium">ії</span> азартних{" "}
+        <span className="ukrainianWordMedium">і</span>гор, включаючи{" "}
         <DescriptionAccent>
           канали, блогер<span className="ukrainianWordBold">і</span>в
         </DescriptionAccent>{" "}
@@ -46,25 +46,25 @@ export const Clients = () => {
           <span className="ukrainianWordBold">і</span>стратор
           <span className="ukrainianWordBold">і</span>в
         </DescriptionAccent>
-        , надаючи <span className="ukrainianWordRegular">ї</span>м ефективн
-        <span className="ukrainianWordRegular">і</span>
-        <span className="ukrainianWordRegular"> і</span>нструменти для р
-        <span className="ukrainianWordRegular">і</span>шення тих чи{" "}
-        <span className="ukrainianWordRegular">і</span>нших задач
+        , надаючи <span className="ukrainianWordMedium">ї</span>м ефективн
+        <span className="ukrainianWordMedium">і</span>
+        <span className="ukrainianWordMedium"> і</span>нструменти для р
+        <span className="ukrainianWordMedium">і</span>шення тих чи{" "}
+        <span className="ukrainianWordMedium">і</span>нших задач
       </Description>
       <DescriptionMobile>
-        Наша компан<span className="ukrainianWordRegular">і</span>я усп
-        <span className="ukrainianWordRegular">і</span>шно сп
-        <span className="ukrainianWordRegular">і</span>впрацю
-        <span className="ukrainianWordRegular">є</span> з р
-        <span className="ukrainianWordRegular">і</span>зними сегментами
-        <span className="ukrainianWordRegular">і</span>ндустр
-        <span className="ukrainianWordRegular">ії</span> азартних{" "}
-        <span className="ukrainianWordRegular">і</span>гор, надаючи{" "}
-        <span className="ukrainianWordRegular">ї</span>м ефективн
-        <span className="ukrainianWordRegular">і</span>{" "}
-        <span className="ukrainianWordRegular">і</span>нструменти для вир
-        <span className="ukrainianWordRegular">і</span>шення задач
+        Наша компан<span className="ukrainianWordMedium">і</span>я усп
+        <span className="ukrainianWordMedium">і</span>шно сп
+        <span className="ukrainianWordMedium">і</span>впрацю
+        <span className="ukrainianWordMedium">є</span> з р
+        <span className="ukrainianWordMedium">і</span>зними сегментами
+        <span className="ukrainianWordMedium">і</span>ндустр
+        <span className="ukrainianWordMedium">ії</span> азартних{" "}
+        <span className="ukrainianWordMedium">і</span>гор, надаючи{" "}
+        <span className="ukrainianWordMedium">ї</span>м ефективн
+        <span className="ukrainianWordMedium">і</span>{" "}
+        <span className="ukrainianWordMedium">і</span>нструменти для вир
+        <span className="ukrainianWordMedium">і</span>шення задач
       </DescriptionMobile>
       <ItemsWrapper>
         <Item>
@@ -73,16 +73,16 @@ export const Clients = () => {
           </IconFirst>
           <ItemTitle>Каналами</ItemTitle>
           <ItemDescription>
-            Ми розробля<span className="ukrainianWordRegular">є</span>мо
-            <span className="ukrainianWordRegular"> і</span>ндив
-            <span className="ukrainianWordRegular">і</span>дуальн
-            <span className="ukrainianWordRegular">і</span> рекламн
-            <span className="ukrainianWordRegular">і</span> кампан
-            <span className="ukrainianWordRegular">ії</span>, щоб знаходити св
-            <span className="ukrainianWordRegular">і</span>й шлях до ц
-            <span className="ukrainianWordRegular">і</span>льово
-            <span className="ukrainianWordRegular">ї</span> аудитор
-            <span className="ukrainianWordRegular">ії</span>
+            Ми розробля<span className="ukrainianWordMedium">є</span>мо
+            <span className="ukrainianWordMedium"> і</span>ндив
+            <span className="ukrainianWordMedium">і</span>дуальн
+            <span className="ukrainianWordMedium">і</span> рекламн
+            <span className="ukrainianWordMedium">і</span> кампан
+            <span className="ukrainianWordMedium">ії</span>, щоб знаходити св
+            <span className="ukrainianWordMedium">і</span>й шлях до ц
+            <span className="ukrainianWordMedium">і</span>льово
+            <span className="ukrainianWordMedium">ї</span> аудитор
+            <span className="ukrainianWordMedium">ії</span>
           </ItemDescription>
           <Comma src={comma} alt="comma" />
         </Item>
@@ -92,12 +92,12 @@ export const Clients = () => {
           </Icon>
           <ItemTitle>Блогерами</ItemTitle>
           <ItemDescription>
-            Наша команда працю<span className="ukrainianWordRegular">є</span> з
+            Наша команда працю<span className="ukrainianWordMedium">є</span> з
             блогерами, допомагаючи{" "}
-            <span className="ukrainianWordRegular">ї</span>м створювати контент,
-            що призводить до вза<span className="ukrainianWordRegular">є</span>
-            мних виг<span className="ukrainianWordRegular">і</span>дних
-            результат<span className="ukrainianWordRegular">і</span>в.
+            <span className="ukrainianWordMedium">ї</span>м створювати контент,
+            що призводить до вза<span className="ukrainianWordMedium">є</span>
+            мних виг<span className="ukrainianWordMedium">і</span>дних результат
+            <span className="ukrainianWordMedium">і</span>в.
           </ItemDescription>
           <Comma src={comma} alt="comma" />
         </Item>
@@ -109,16 +109,16 @@ export const Clients = () => {
             Адм<span className="ukrainianWordBold">і</span>нами
           </ItemTitle>
           <ItemDescription>
-            Ми сп<span className="ukrainianWordRegular">і</span>впрацю
-            <span className="ukrainianWordRegular">є</span>мо з адм
-            <span className="ukrainianWordRegular">і</span>н
-            <span className="ukrainianWordRegular">і</span>страторами груп та
-            канал<span className="ukrainianWordRegular">і</span>в, надаючи
-            <span className="ukrainianWordRegular"> і</span>нструменти та
-            знання, необх<span className="ukrainianWordRegular">і</span>дн
-            <span className="ukrainianWordRegular">і</span> для зб
-            <span className="ukrainianWordRegular">і</span>льшення конверс
-            <span className="ukrainianWordRegular">і</span>й
+            Ми сп<span className="ukrainianWordMedium">і</span>впрацю
+            <span className="ukrainianWordMedium">є</span>мо з адм
+            <span className="ukrainianWordMedium">і</span>н
+            <span className="ukrainianWordMedium">і</span>страторами груп та
+            канал<span className="ukrainianWordMedium">і</span>в, надаючи
+            <span className="ukrainianWordMedium"> і</span>нструменти та знання,
+            необх<span className="ukrainianWordMedium">і</span>дн
+            <span className="ukrainianWordMedium">і</span> для зб
+            <span className="ukrainianWordMedium">і</span>льшення конверс
+            <span className="ukrainianWordMedium">і</span>й
           </ItemDescription>
           <Comma src={comma} alt="comma" />
         </Item>
@@ -130,11 +130,11 @@ export const Clients = () => {
             Ц<span className="ukrainianWordBold">і</span>каво
           </ItemTitle>
           <LastItemDescription>
-            Ма<span className="ukrainianWordRegular">є</span>мо ще трохи ц
-            <span className="ukrainianWordRegular">і</span>каво
-            <span className="ukrainianWordRegular">ї</span>{" "}
-            <span className="ukrainianWordRegular">і</span>нформац
-            <span className="ukrainianWordRegular">ії</span> для тебе, гортай
+            Ма<span className="ukrainianWordMedium">є</span>мо ще трохи ц
+            <span className="ukrainianWordMedium">і</span>каво
+            <span className="ukrainianWordMedium">ї</span>{" "}
+            <span className="ukrainianWordMedium">і</span>нформац
+            <span className="ukrainianWordMedium">ії</span> для тебе, гортай
             нижче
           </LastItemDescription>
           <Button type="button">

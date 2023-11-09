@@ -19,10 +19,10 @@ export const Hero = () => {
       </Title>
       <TextWrapper>
         <Description>
-          “підвищуйте св<span className="ukrainianWordRegular">і</span>й
-          прибуток разом з нами - вашим над
-          <span className="ukrainianWordRegular">і</span>йним партнером у реклам
-          <span className="ukrainianWordRegular">і</span>, телеграм каналах та
+          “підвищуйте св<span className="ukrainianWordMedium">і</span>й прибуток
+          разом з нами - вашим над
+          <span className="ukrainianWordMedium">і</span>йним партнером у реклам
+          <span className="ukrainianWordMedium">і</span>, телеграм каналах та
           блогах!“
         </Description>
         <TitleBottom>З БЛОГЕРАМИ</TitleBottom>

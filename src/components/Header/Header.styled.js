@@ -7,6 +7,10 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding-top: 61px;
+
+  @media screen and (max-width: 481px) {
+    padding-top: 24px;
+  }
 `;
 
 export const NavList = styled.ul`

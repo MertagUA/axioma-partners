@@ -28,18 +28,18 @@ export const Partners = () => {
       </Title>
       <Description>
         Наша партнерський екосистема включа
-        <span className="ukrainianWordRegular">є</span> кращ
-        <span className="ukrainianWordRegular">і</span> л
-        <span className="ukrainianWordRegular">і</span>цензован
-        <span className="ukrainianWordRegular">і</span> казино.
+        <span className="ukrainianWordMedium">є</span> кращ
+        <span className="ukrainianWordMedium">і</span> л
+        <span className="ukrainianWordMedium">і</span>цензован
+        <span className="ukrainianWordMedium">і</span> казино.
         <br />
-        Разом ми ведемо гравц<span className="ukrainianWordRegular">і</span>в до
-        найзахоплив<span className="ukrainianWordRegular">і</span>шого{" "}
-        <span className="ukrainianWordRegular">і</span>грового досв
-        <span className="ukrainianWordRegular">і</span>ду, без ризик
-        <span className="ukrainianWordRegular">і</span>в потрапити в непри
-        <span className="ukrainianWordRegular">є</span>мност
-        <span className="ukrainianWordRegular">і</span>
+        Разом ми ведемо гравц<span className="ukrainianWordMedium">і</span>в до
+        найзахоплив<span className="ukrainianWordMedium">і</span>шого{" "}
+        <span className="ukrainianWordMedium">і</span>грового досв
+        <span className="ukrainianWordMedium">і</span>ду, без ризик
+        <span className="ukrainianWordMedium">і</span>в потрапити в непри
+        <span className="ukrainianWordMedium">є</span>мност
+        <span className="ukrainianWordMedium">і</span>
       </Description>
       <AnimatedIconsWrapper>
         <IconsWrapper>

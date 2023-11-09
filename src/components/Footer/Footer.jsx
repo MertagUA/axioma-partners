@@ -37,9 +37,9 @@ export const Footer = () => {
             loading="lazy"
           />
           <LeftText>
-            Ваш усп<span className="ukrainianWordRegular">і</span>х - наша мета,
-            <span className="ukrainianWordRegular"> і</span> ми завжди готов
-            <span className="ukrainianWordRegular">і </span>
+            Ваш усп<span className="ukrainianWordMedium">і</span>х - наша мета,
+            <span className="ukrainianWordMedium"> і</span> ми завжди готов
+            <span className="ukrainianWordMedium">і </span>
             допомогти вам досягти його
           </LeftText>
         </LeftWrapper>
