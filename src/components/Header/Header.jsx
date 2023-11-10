@@ -43,7 +43,7 @@ export const Header = () => {
             </svg>
           </BurgerButton>
           <NavMobileList>
-            <li>
+            <li className="wow animate__animated animate__fadeInRight">
               <Link
                 to="traffic"
                 spy={true}

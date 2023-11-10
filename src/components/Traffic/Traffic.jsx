@@ -60,7 +60,7 @@ export const Traffic = () => {
           <Title className="wow animate__animated animate__fadeInUp">
             З ТРАФIК <TitleSpan>СОРСАМИ</TitleSpan>
           </Title>
-          <Description>
+          <Description className="wow animate__animated animate__fadeInUp">
             Ми ма<span className="ukrainianWordMedium">є</span>мо усп
             <span className="ukrainianWordMedium">i</span>шний досв
             <span className="ukrainianWordMedium">i</span>д привертання та

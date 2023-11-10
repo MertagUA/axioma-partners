@@ -384,6 +384,10 @@ export const LeftBoxText = styled.p`
   @media screen and (max-width: 405px) {
     font-size: 16px;
   }
+
+  @media screen and (max-width: 345px) {
+    font-size: 15px;
+  }
 `;
 
 export const LeftBoxAccent = styled.span`

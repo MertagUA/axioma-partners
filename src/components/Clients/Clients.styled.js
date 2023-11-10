@@ -142,13 +142,13 @@ const fill = keyframes`
     }
    25% {
     background: linear-gradient(149deg, #0495FF 75%, #18C8FF 100%);
-  }  
+  }
   50% {
     background: linear-gradient(149deg, #0495FF 50%, #18C8FF 100%);
-  } 
+  }
    75% {
     background: linear-gradient(149deg, #0495FF 25%, #18C8FF 100%);
-  }  
+  }
   100% {
     background: linear-gradient(149deg, #0495ff 0%, #18c8ff 100%);
   }
@@ -164,7 +164,7 @@ export const Item = styled.div`
   border-radius: 0px 143.5px 0px 0px;
   background: linear-gradient(149deg, #0495ff 100%, #18c8ff 100%);
   &:hover {
-    animation: ${fill} 0.1s forwards;
+    // animation: ${fill} 0.1s forwards;
 
     ::before {
       content: "";
@@ -230,7 +230,7 @@ export const LastItem = styled.div`
   overflow: hidden;
   background: linear-gradient(149deg, #0495ff 100%, #18c8ff 100%);
   &:hover {
-    animation: ${fill} 0.1s forwards;
+    // animation: ${fill} 0.1s forwards;
 
     ::before {
       content: "";

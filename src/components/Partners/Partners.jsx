@@ -22,11 +22,11 @@ import sprite from "../../assets/images/sprite.svg";
 export const Partners = () => {
   return (
     <Section name="partners">
-      <Title className="wow animate__animated animate__fadeInUp">
+      <Title className="wow animate__animated animate__fadeInRight">
         СПIВПРАЦЯ
         <Accent> З БРЕНДАМИ</Accent>
       </Title>
-      <Description>
+      <Description className="wow animate__animated animate__fadeInLeft">
         Наша партнерський екосистема включа
         <span className="ukrainianWordMedium">є</span> кращ
         <span className="ukrainianWordMedium">і</span> л

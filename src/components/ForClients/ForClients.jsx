@@ -15,7 +15,7 @@ export const ForClients = () => {
   return (
     <Section name="for-clients">
       <TextWrapper>
-        <Description>
+        <Description className="wow animate__animated animate__fadeInLeft">
           Ми прагнемо надавати нашим кл
           <span className="ukrainianWordMedium">іє</span>нтам найкращ
           <span className="ukrainianWordMedium">і</span> умови сп
@@ -24,13 +24,13 @@ export const ForClients = () => {
           <span className="ukrainianWordMedium">і</span>дтримка завжди готова
           надати необх<span className="ukrainianWordMedium">і</span>дну допомогу
         </Description>
-        <Title className="wow animate__animated animate__fadeInUp">
+        <Title className="wow animate__animated animate__fadeInRight">
           ДЛЯ НАШИХ КЛI<span className="ukrainianWordBold">Є</span>НТ
           <span className="ukrainianWordBold">І</span>В
         </Title>
       </TextWrapper>
       <ItemWrapper>
-        <Item>
+        <Item className="wow animate__animated animate__fadeInUp">
           <Icon>
             <use href={sprite + "#icon-coin"}></use>
           </Icon>
@@ -47,7 +47,7 @@ export const ForClients = () => {
             прибутку
           </ItemDescription>
         </Item>
-        <Item>
+        <Item className="wow animate__animated animate__fadeInUp">
           <Icon>
             <use href={sprite + "#icon-clientStar"}></use>
           </Icon>
@@ -61,7 +61,7 @@ export const ForClients = () => {
             <span className="ukrainianWordMedium">і</span>д
           </ItemDescription>
         </Item>
-        <Item>
+        <Item className="wow animate__animated animate__fadeInUp">
           <Icon>
             <use href={sprite + "#icon-emodji"}></use>
           </Icon>
@@ -85,7 +85,7 @@ export const ForClients = () => {
             <span className="ukrainianWordMedium">і</span>
           </ItemDescription>
         </Item>
-        <Item>
+        <Item className="wow animate__animated animate__fadeInUp">
           <Icon>
             <use href={sprite + "#icon-support"}></use>
           </Icon>

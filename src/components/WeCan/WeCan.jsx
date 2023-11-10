@@ -61,7 +61,7 @@ export const WeCan = () => {
       <Title className="wow animate__animated animate__fadeInUp">
         ЩО МИ <AccentTitle>МОЖЕМО ?</AccentTitle>
       </Title>
-      <Description>
+      <Description className="wow animate__animated animate__fadeInLeft">
         Наша команда майстерно впроваджу
         <span className="ukrainianWordMedium">є</span> вс
         <span className="ukrainianWordMedium">i</span> необхідн
@@ -82,7 +82,7 @@ export const WeCan = () => {
           зб<span className="ukrainianWordBold">i</span>льшення прибутку
         </AccentDescription>
       </Description>
-      <DescriptionMobile>
+      <DescriptionMobile className="wow animate__animated animate__fadeInLeft">
         Наша команда майстерно впроваджу
         <span className="ukrainianWordMedium">є</span> вс
         <span className="ukrainianWordMedium">i</span> необхідн
@@ -99,7 +99,7 @@ export const WeCan = () => {
       </DescriptionMobile>
       <ItemsContainer>
         <TopItemsWrapper>
-          <InfoItem>
+          <InfoItem className="wow animate__animated animate__fadeInUp">
             <ItemInfoReplaceMobidle className="imgInfo">
               <InfoTextHover>Ось так</InfoTextHover>
               <img src={mobileDone} alt="hold me" width={62} height={62} />
@@ -137,7 +137,7 @@ export const WeCan = () => {
               </TextWrapper>
             </InfoWrapper>
           </InfoItem>
-          <Item1>
+          <Item1 className="wow animate__animated animate__fadeInUp">
             <Item1Replace
               src={replace1}
               alt="landings"
@@ -167,7 +167,7 @@ export const WeCan = () => {
               <span className="ukrainianWordMedium">і</span>ю.
             </Text1>
           </Item1>
-          <Item2>
+          <Item2 className="wow animate__animated animate__fadeInUp">
             <Item2Replace
               src={replace2}
               alt="craters"
@@ -196,7 +196,7 @@ export const WeCan = () => {
           </Item2>
         </TopItemsWrapper>
         <BottomItemsWrapper>
-          <Item3>
+          <Item3 className="wow animate__animated animate__fadeInUp">
             <Item3Replace
               src={replace3}
               alt="mails"
@@ -225,7 +225,7 @@ export const WeCan = () => {
             </Text3>
           </Item3>
           <RightItemsWrapper>
-            <Item4>
+            <Item4 className="wow animate__animated animate__fadeInUp">
               <Item4Replace
                 src={replace4}
                 alt="mailing"
@@ -255,7 +255,7 @@ export const WeCan = () => {
                 <span className="ukrainianWordMedium">і</span>
               </Text4>
             </Item4>
-            <Item5>
+            <Item5 className="wow animate__animated animate__fadeInUp">
               <Item5Replace
                 src={replace5}
                 alt="creatives"

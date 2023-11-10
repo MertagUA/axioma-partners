@@ -29,7 +29,7 @@ export const Clients = () => {
         МИ ПРАЦЮ<span className="ukrainianWordBold">Є</span>МО
         <Accent> З КРАЩИМИ</Accent>
       </Title>
-      <Description>
+      <Description className="wow animate__animated animate__fadeInRight">
         Наша компан<span className="ukrainianWordMedium">і</span>я успішно сп
         <span className="ukrainianWordMedium">і</span>впрацю
         <span className="ukrainianWordMedium">є</span> з р
@@ -52,7 +52,7 @@ export const Clients = () => {
         <span className="ukrainianWordMedium">і</span>шення тих чи{" "}
         <span className="ukrainianWordMedium">і</span>нших задач
       </Description>
-      <DescriptionMobile>
+      <DescriptionMobile className="wow animate__animated animate__fadeInRight">
         Наша компан<span className="ukrainianWordMedium">і</span>я усп
         <span className="ukrainianWordMedium">і</span>шно сп
         <span className="ukrainianWordMedium">і</span>впрацю
@@ -67,7 +67,7 @@ export const Clients = () => {
         <span className="ukrainianWordMedium">і</span>шення задач
       </DescriptionMobile>
       <ItemsWrapper>
-        <Item>
+        <Item className="wow animate__animated animate__fadeInLeft">
           <IconFirst>
             <use href={sprite + "#icon-sun"}></use>
           </IconFirst>
@@ -86,7 +86,7 @@ export const Clients = () => {
           </ItemDescription>
           <Comma src={comma} alt="comma" />
         </Item>
-        <Item>
+        <Item className="wow animate__animated animate__fadeInLeft">
           <Icon>
             <use href={sprite + "#icon-box"}></use>
           </Icon>
@@ -101,7 +101,7 @@ export const Clients = () => {
           </ItemDescription>
           <Comma src={comma} alt="comma" />
         </Item>
-        <Item>
+        <Item className="wow animate__animated animate__fadeInLeft">
           <Icon>
             <use href={sprite + "#icon-blueStar"}></use>
           </Icon>
@@ -122,7 +122,7 @@ export const Clients = () => {
           </ItemDescription>
           <Comma src={comma} alt="comma" />
         </Item>
-        <LastItem>
+        <LastItem className="wow animate__animated animate__fadeInLeft">
           <LastIcon>
             <use href={sprite + "#icon-questionMark"}></use>
           </LastIcon>
