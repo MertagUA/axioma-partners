@@ -22,9 +22,9 @@ export const Header = () => {
   };
 
   const openModal = () => {
-    console.log("object");
     setIsOpen(true);
   };
+
   return (
     <>
       <BurgerMenuWrapper
@@ -36,14 +36,21 @@ export const Header = () => {
         }}
         className={isOpen ? "visible" : "header-animation"}
       >
-        <BurgerMenu id="menu">
+        <BurgerMenu id="menu" className={isOpen ? "displayNone" : ""}>
           <BurgerButton type="button" onClick={closeModal}>
             <svg width={46} height={46}>
               <use href={sprite + "#icon-close"}></use>
             </svg>
           </BurgerButton>
           <NavMobileList>
-            <li className="wow animate__animated animate__fadeInRight">
+            <li
+              className={
+                isOpen
+                  ? "wow animate__animated animate__fadeInRight"
+                  : "wow animate__animated animate__fadeInRight displayHidden"
+              }
+              data-wow-delay="0.2s"
+            >
               <Link
                 to="traffic"
                 spy={true}
@@ -56,8 +63,15 @@ export const Header = () => {
                 </NavLinkMobile>
               </Link>
             </li>
-            <Line></Line>
-            <li>
+            <Line className={isOpen ? "" : "displayHidden"}></Line>
+            <li
+              className={
+                isOpen
+                  ? "wow animate__animated animate__fadeInRight"
+                  : "wow animate__animated animate__fadeInRight displayHidden"
+              }
+              data-wow-delay="0.4s"
+            >
               <Link
                 to="we-can"
                 spy={true}
@@ -68,8 +82,15 @@ export const Header = () => {
                 <NavLinkMobile>ми можемо</NavLinkMobile>
               </Link>
             </li>
-            <Line></Line>
-            <li>
+            <Line className={isOpen ? "" : "displayHidden"}></Line>
+            <li
+              className={
+                isOpen
+                  ? "wow animate__animated animate__fadeInRight"
+                  : "wow animate__animated animate__fadeInRight displayHidden"
+              }
+              data-wow-delay="0.6s"
+            >
               <Link
                 to="clients"
                 spy={true}
@@ -82,8 +103,15 @@ export const Header = () => {
                 </NavLinkMobile>
               </Link>
             </li>
-            <Line></Line>
-            <li>
+            <Line className={isOpen ? "" : "displayHidden"}></Line>
+            <li
+              className={
+                isOpen
+                  ? "wow animate__animated animate__fadeInRight"
+                  : "wow animate__animated animate__fadeInRight displayHidden"
+              }
+              data-wow-delay="0.8s"
+            >
               <Link
                 to="partners"
                 spy={true}
@@ -94,8 +122,15 @@ export const Header = () => {
                 <NavLinkMobile>партнери</NavLinkMobile>
               </Link>
             </li>
-            <Line></Line>
-            <li>
+            <Line className={isOpen ? "" : "displayHidden"}></Line>
+            <li
+              className={
+                isOpen
+                  ? "wow animate__animated animate__fadeInRight"
+                  : "wow animate__animated animate__fadeInRight displayHidden"
+              }
+              data-wow-delay="1s"
+            >
               <Link
                 to="for-clients"
                 spy={true}

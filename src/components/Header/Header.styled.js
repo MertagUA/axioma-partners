@@ -25,7 +25,7 @@ export const NavList = styled.ul`
 export const NavMobileList = styled.ul`
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  gap: 30px;
 `;
 
 export const BurgerButton = styled.button`
@@ -65,7 +65,7 @@ export const BurgerMenuWrapper = styled.div`
 export const NavLinkMobile = styled.p`
   color: #fff;
   font-family: "Axiforma";
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 81.25%;
@@ -84,14 +84,14 @@ export const BurgerMenu = styled.div`
   background-image: url(${mobileBg});
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 353px;
-  width: 80vw;
+  // max-width: 353px;
+  width: 65vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 60px 45px 0 0;
   align-items: end;
-  gap: 45px;
+  gap: 30px;
   z-index: 1201;
 
   @media screen and (min-width: 481px) {
@@ -108,7 +108,7 @@ export const BurgerMenu = styled.div`
 `;
 
 export const Line = styled.li`
-  width: 196px;
+  width: 146px;
   height: 1px;
   background-color: #5a5a5a;
 `;

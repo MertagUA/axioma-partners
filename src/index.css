@@ -154,24 +154,49 @@ code {
   font-weight: 400;
 }
 
-@keyframes slideBack {
+@keyframes blackComing {
   0% {
-    transform: translateX(310px);
+    background-color: transparent;
   }
 
   100% {
-    transform: translateX(0);
+    background-color: rgba(0, 0, 0, 0.7);
   }
+}
+
+@keyframes dislayHidden {
+  0% {
+    display: flex !important;
+  }
+
+  100% {
+    display: none !important;
+  }
+}
+
+.noScroll {
+  overflow: hidden;
 }
 
 .visible {
   transform: translateX(0);
   pointer-events: all;
   transition: all 0.6s ease-in-out;
+  animation: blackComing forwards;
+  animation-delay: 0.6s;
+  animation-duration: 0.6s;
 }
 
 .header-animation {
   pointer-events: none;
   transform: translateX(480px);
   transition: all 0.6s ease-in-out;
+}
+
+.displayNone {
+  animation: dislayHidden 0.6s forwards;
+}
+
+.displayHidden {
+  animation: dislayHidden 0.6s forwards;
 }
