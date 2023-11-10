@@ -174,10 +174,6 @@ code {
   }
 }
 
-.noScroll {
-  overflow: hidden;
-}
-
 .visible {
   transform: translateX(0);
   pointer-events: all;
