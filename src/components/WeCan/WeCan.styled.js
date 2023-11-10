@@ -177,14 +177,20 @@ export const InfoText = styled.p`
   }
 `;
 
-export const ItemInfoReplaceMobidle = styled.img`
+export const ItemInfoReplaceMobidle = styled.div`
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 22px;
   max-width: 390px;
   width: 100%;
   height: 189px;
   cursor: pointer;
+  background-color: ${theme.green};
   border-radius: 18px;
   opacity: 0;
   pointer-events: none;
@@ -195,6 +201,14 @@ export const ItemInfoReplaceMobidle = styled.img`
   @media screen and (min-width: 481px) {
     display: none;
   }
+`;
+
+export const InfoTextHover = styled.p`
+  font-family: "Axiforma";
+  font-size: 29px;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 0em;
 `;
 
 export const TextWrapper = styled.div`

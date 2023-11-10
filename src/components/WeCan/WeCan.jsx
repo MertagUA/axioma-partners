@@ -6,6 +6,7 @@ import {
   DescriptionMobile,
   InfoItem,
   InfoText,
+  InfoTextHover,
   InfoTitle,
   InfoWrapper,
   Item1,
@@ -52,7 +53,7 @@ import mobileReplace2 from "../../assets/images/item2ReplaceMobile.png";
 import mobileReplace3 from "../../assets/images/item3ReplaceMobile.png";
 import mobileReplace4 from "../../assets/images/item4ReplaceMobile.png";
 import mobileReplace5 from "../../assets/images/item5ReplaceMobile.png";
-import mobileReplaceInfo from "../../assets/images/itemClick.png";
+import mobileDone from "../../assets/images/done.png";
 
 export const WeCan = () => {
   return (
@@ -99,12 +100,10 @@ export const WeCan = () => {
       <ItemsContainer>
         <TopItemsWrapper>
           <InfoItem>
-            <ItemInfoReplaceMobidle
-              src={mobileReplaceInfo}
-              alt="information"
-              className="imgInfo"
-              loading="lazy"
-            />
+            <ItemInfoReplaceMobidle className="imgInfo">
+              <InfoTextHover>Ось так</InfoTextHover>
+              <img src={mobileDone} alt="hold me" width={62} height={62} />
+            </ItemInfoReplaceMobidle>
             <InfoWrapper>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
