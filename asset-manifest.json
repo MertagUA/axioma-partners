@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/axioma-partners/static/css/main.36112fcf.css",
-    "main.js": "/axioma-partners/static/js/main.3357b911.js",
+    "main.js": "/axioma-partners/static/js/main.b7d0082d.js",
     "static/media/item5Replace.png": "/axioma-partners/static/media/item5Replace.c2d7d341dc9b259d3729.png",
     "static/media/item5ReplaceMobile.png": "/axioma-partners/static/media/item5ReplaceMobile.abba9b18c5942296dd62.png",
     "static/media/item4Replace.png": "/axioma-partners/static/media/item4Replace.25916c63fd5424ad6bac.png",
@@ -56,10 +56,10 @@
     "static/media/backgroundTrafficMobile.svg": "/axioma-partners/static/media/backgroundTrafficMobile.a9c4d76fcb138294042b45c0b3b8c900.svg",
     "index.html": "/axioma-partners/index.html",
     "main.36112fcf.css.map": "/axioma-partners/static/css/main.36112fcf.css.map",
-    "main.3357b911.js.map": "/axioma-partners/static/js/main.3357b911.js.map"
+    "main.b7d0082d.js.map": "/axioma-partners/static/js/main.b7d0082d.js.map"
   },
   "entrypoints": [
     "static/css/main.36112fcf.css",
-    "static/js/main.3357b911.js"
+    "static/js/main.b7d0082d.js"
   ]
 }
