@@ -11,7 +11,7 @@ export const Section = styled.section`
 `;
 
 export const Title = styled.p`
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -44,7 +44,7 @@ export const Description = styled.p`
   max-width: 809px;
   margin-top: 12px;
   width: 100%;
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -658,6 +658,23 @@ export const Icon1 = styled.svg`
   }
 `;
 
+export const Icon1Img = styled.img`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: ${rightTopIcon1Slide} 8s infinite;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
 export const Icon2 = styled.svg`
   position: absolute;
   width: 190px;
@@ -675,7 +692,42 @@ export const Icon2 = styled.svg`
   }
 `;
 
+export const Icon2Img = styled.img`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ${rightTopIcon2Slide} 8s infinite;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
 export const Icon3 = styled.svg`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: ${rightTopIcon3Slide} 8s infinite;
+  animation-delay: 0.2s;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
+export const Icon3Img = styled.img`
   position: absolute;
   width: 190px;
   height: 117px;
@@ -802,6 +854,132 @@ export const Icon9 = styled.svg`
 `;
 
 export const Icon10 = styled.svg`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: ${rightTopIcon10Slide} 8s infinite;
+  animation-delay: 0.5s;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
+export const Icon4Img = styled.img`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 0s;
+  left: -100%;
+  transform: translate(-50%, -50%);
+  animation: ${rightTopIcon4Slide} 8s infinite;
+  animation-delay: 0.2s;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
+export const Icon5Img = styled.img`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: ${rightTopIcon1Slide} 8s infinite;
+  animation-delay: 0.3s;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
+export const Icon6Img = styled.img`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ${rightTopIcon2Slide} 8s infinite;
+  animation-delay: 0.3s;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
+export const Icon7Img = styled.img`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: ${rightTopIcon7Slide} 8s infinite;
+  animation-delay: 0.4s;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
+export const Icon8Img = styled.img`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 0%;
+  left: 150%;
+  transform: translateX(-50%);
+  animation: ${rightTopIcon8Slide} 8s infinite;
+  animation-delay: 0.4s;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
+export const Icon9Img = styled.img`
+  position: absolute;
+  width: 190px;
+  height: 117px;
+  opacity: 1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: ${rightTopIcon9Slide} 8s infinite;
+  animation-delay: 0.5s;
+
+  @media screen and (max-width: 481px) {
+    max-width: 190px;
+    width: 100%;
+    height: 117px;
+  }
+`;
+
+export const Icon10Img = styled.img`
   position: absolute;
   width: 190px;
   height: 117px;

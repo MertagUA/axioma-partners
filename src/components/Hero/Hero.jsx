@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   Button,
   Description,
@@ -6,44 +7,49 @@ import {
   Title,
   TitleBottom,
   Section,
-  TopText,
-  TitleSpan,
+  // TopText,
 } from "./Hero.styled";
 
 export const Hero = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <Section>
-      <TopText
+      {/* <TopText
         className="wow animate__animated animate__fadeInDown"
         data-wow-delay="0.3s"
       >
-        кращий
-      </TopText>
-      <Title className="wow animate__animated animate__fadeInUp">
-        ЛЕНДIНГ <TitleSpan>ДЛЯ РОБОТИ</TitleSpan>
+        {t("heroBest")}
+      </TopText> */}
+      <Title
+        className="wow animate__animated animate__fadeInUp"
+        language={i18n.language}
+      >
+        {t("heroTitleOne")}
       </Title>
       <TextWrapper>
         <Description
           className="wow animate__animated animate__fadeInLeft"
           data-wow-delay="0.6s"
         >
-          “підвищуйте св<span className="ukrainianWordMedium">і</span>й прибуток
-          разом з нами - вашим над
-          <span className="ukrainianWordMedium">і</span>йним партнером у реклам
-          <span className="ukrainianWordMedium">і</span>, телеграм каналах та
-          блогах!“
+          {t("heroDescription")}
         </Description>
-        <TitleBottom className="wow animate__animated animate__fadeInUp">
-          З БЛОГЕРАМИ
+        <TitleBottom
+          className="wow animate__animated animate__fadeInUp"
+          language={i18n.language}
+        >
+          {t("heroTitleTwo")}
         </TitleBottom>
       </TextWrapper>
       <Lines>
         <Button
-          type="button"
           className="wow animate__animated animate__fadeInRightBig"
           data-wow-delay="0.9s"
+          href={t("writeUs")}
+          target="_blank"
+          rel="noopener"
         >
-          Написати нам
+          {t("heroButton")}
         </Button>
       </Lines>
     </Section>

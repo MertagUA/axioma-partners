@@ -49,7 +49,7 @@ export const LeftText = styled.p`
   max-width: 421px;
   width: 100%;
   color: ${theme.lightGrey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -77,7 +77,7 @@ export const RightWrapper = styled.div`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +89,7 @@ export const Button = styled.button`
   border-radius: 64px;
   background-color: ${theme.green};
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -103,7 +103,7 @@ export const Button = styled.button`
 
 export const Mail = styled.a`
   color: ${theme.lightGrey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -122,7 +122,7 @@ export const Mail = styled.a`
 
 export const RightText = styled.p`
   color: ${theme.lightGrey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -160,7 +160,7 @@ export const Bottom = styled.div`
 export const GreyText = styled.p`
   color: #a3a3a3;
 
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;

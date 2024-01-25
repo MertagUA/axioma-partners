@@ -120,7 +120,7 @@ image {
 
 body {
   margin: 0;
-  font-family: "Axiforma", sans-serif;
+  font-family: "Gilroy", "Montserrat", sans-serif;
 }
 
 code {
@@ -195,4 +195,53 @@ code {
 
 .displayHidden {
   animation: dislayHidden 0.6s forwards;
+}
+
+.underlined {
+  text-decoration-line: underline;
+}
+
+@keyframes scaling {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+    transform: translate(-50%, -50%);
+  }
+
+  20% {
+    opacity: 1;
+    transform: scale(0.7);
+    transform: translate(-50%, -50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes scalingDesc {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  20% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.language-animation {
+  animation: scaling 3.5s;
+}
+
+.language-animationDesc {
+  animation: scalingDesc 0.5s;
 }

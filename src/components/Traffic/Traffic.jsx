@@ -24,7 +24,6 @@ import {
   IconWrapper10,
   BottomWrapper,
   MidWrapper,
-  TitleSpan,
   IconMobileWrapper,
   IconMobileWrapperLast,
   LeftBoxAccent,
@@ -34,45 +33,38 @@ import sprite from "../../assets/images/sprite.svg";
 import { Container } from "../../App.styled";
 import { Link } from "react-scroll";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export const Traffic = () => {
   const [iconsBottom, setIconsBottom] = useState(false);
   const [oneAnimation, setOneAnimation] = useState(false);
+
+  const { t } = useTranslation();
 
   return (
     <Section name="traffic">
       <Container>
         <Link to="traffic" spy={true} smooth={true} duration={300}>
           <Button type="button">
-            <ButtonText>
-              Д<span className="ukrainianWordBold">і</span>знатись б
-              <span className="ukrainianWordBold">і</span>льше
-            </ButtonText>
+            <ButtonText>{t("trafficButton")}</ButtonText>
             <svg width={32} height={32}>
               <use href={sprite + "#icon-arrowDown"}></use>
             </svg>
           </Button>
         </Link>
         <Title className="wow animate__animated animate__fadeInUp">
-          МИ ПРАЦЮ<span className="ukrainianWordBold">Є</span>МО
+          {t("trafficTitleOne")}
         </Title>
         <TextWrapper>
           <Title className="wow animate__animated animate__fadeInUp">
-            З ТРАФIК <TitleSpan>СОРСАМИ</TitleSpan>
+            {t("trafficTitleTwo")}
           </Title>
           <Description className="wow animate__animated animate__fadeInUp">
-            Ми ма<span className="ukrainianWordMedium">є</span>мо усп
-            <span className="ukrainianWordMedium">i</span>шний досв
-            <span className="ukrainianWordMedium">i</span>д привертання та
-            конвертац<span className="ukrainianWordMedium">ії</span> траф
-            <span className="ukrainianWordMedium">i</span>ку з ус
-            <span className="ukrainianWordMedium">i</span>х основних соц
-            <span className="ukrainianWordMedium">i</span>альних мереж, таких як{" "}
+            {t("trafficDescription")}
             <Accent>
-              YouTube, TikTok, Instagram{" "}
-              <span className="ukrainianWordBold">i</span> Facebook{" "}
+              YouTube, TikTok, Instagram {t("trafficAnd")} Facebook{" "}
             </Accent>
-            <span className="ukrainianWordMedium">i</span> тд
+            {t("trafficAndSoOn")}
           </Description>
         </TextWrapper>
         <MiddleWrapper>
@@ -630,16 +622,9 @@ export const Traffic = () => {
         </IconsMobileWrapper>
         <LeftBox>
           <LeftBoxText>
-            Наша експертн<span className="ukrainianWordMedium">і</span>сть
-            дозволя<span className="ukrainianWordMedium">є</span> максим
-            <span className="ukrainianWordMedium">і</span>
-            зувати
-            <LeftBoxAccent>
-              {" "}
-              ваш потенц<span className="ukrainianWordBold">і</span>ал{" "}
-            </LeftBoxAccent>
-            та досягати видатних результат
-            <span className="ukrainianWordMedium">і</span>в
+            {t("trafficBoxOne")}
+            <LeftBoxAccent>{t("trafficBoxAccent")}</LeftBoxAccent>
+            {t("trafficBoxTwo")}
           </LeftBoxText>
           <svg width={28} height={28}>
             <use href={sprite + "#icon-star"}></use>

@@ -16,8 +16,11 @@ import {
 import logo from "../../assets/images/logo.webp";
 import logoMobile from "../../assets/images/logoFooter.png";
 import sprite from "../../assets/images/sprite.svg";
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <FooterStyled>
       <Wrapper>
@@ -36,23 +39,18 @@ export const Footer = () => {
             height={"64.3px"}
             loading="lazy"
           />
-          <LeftText>
-            Ваш усп<span className="ukrainianWordMedium">і</span>х - наша мета,
-            <span className="ukrainianWordMedium"> і</span> ми завжди готов
-            <span className="ukrainianWordMedium">і </span>
-            допомогти вам досягти його
-          </LeftText>
+          <LeftText>{t("footerText")}</LeftText>
         </LeftWrapper>
         <RightWrapper>
-          <Button type="button">Написати нам</Button>
-          <Mail href="mailto:axiomateam@gmail.com">axiomateam@gmail.com</Mail>
-          <a
-            href="https://www.instagram.com/axioma.team/"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <Button href={t("writeUs")} target="_blank" rel="noopener">
+            {t("footerButton")}
+          </Button>
+          <Mail href="mailto:support@axioma.partners">
+            support@axioma.partners
+          </Mail>
+          <a href={t("footerLinkToInstagram")} rel="noreferrer" target="_blank">
             <IconTextWrapper>
-              <RightText>axioma.team</RightText>
+              <RightText>{t("footerInstagram")}</RightText>
               <svg width={"32px"} height={"32px"}>
                 <use href={sprite + "#icon-instagramFooter"}></use>
               </svg>
@@ -61,7 +59,7 @@ export const Footer = () => {
         </RightWrapper>
       </Wrapper>
       <Bottom>
-        <GreyText>© 2023 Axioma Partners</GreyText>
+        <GreyText>© 2024 Axioma Partners</GreyText>
         <GreyText>All rights reserved!</GreyText>
       </Bottom>
     </FooterStyled>

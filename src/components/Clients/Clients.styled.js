@@ -12,38 +12,38 @@ export const Section = styled.section`
 
 export const Title = styled.p`
   color: ${theme.white};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: 111.111%;
 
   @media screen and (max-width: 481px) {
-    font-size: 49px;
-  }
-
-  @media screen and (max-width: 450px) {
     font-size: 46px;
   }
 
-  @media screen and (max-width: 425px) {
-    font-size: 45px;
-  }
-
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 450px) {
     font-size: 42px;
   }
 
-  @media screen and (max-width: 385px) {
-    font-size: 39px;
+  @media screen and (max-width: 425px) {
+    font-size: 40px;
   }
 
-  @media screen and (max-width: 365px) {
+  @media screen and (max-width: 415px) {
+    font-size: 38px;
+  }
+
+  @media screen and (max-width: 385px) {
     font-size: 36px;
   }
 
-  @media screen and (max-width: 340px) {
+  @media screen and (max-width: 365px) {
     font-size: 34px;
+  }
+
+  @media screen and (max-width: 340px) {
+    font-size: 32px;
   }
 `;
 
@@ -61,7 +61,7 @@ export const Description = styled.p`
   margin-top: 12px;
   color: ${theme.white};
   text-align: right;
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -76,7 +76,7 @@ export const DescriptionMobile = styled.p`
   color: ${theme.white};
   text-align: right;
 
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -98,7 +98,7 @@ export const DescriptionMobile = styled.p`
 
 export const DescriptionAccent = styled.span`
   color: ${theme.white};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -256,7 +256,7 @@ export const LastItem = styled.div`
 export const ItemTitle = styled.p`
   margin-bottom: 8px;
   color: ${theme.white};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 40px;
@@ -274,7 +274,7 @@ export const LastItemDescription = styled.p`
   margin-bottom: 26px;
   color: rgba(255, 255, 255, 0.8);
   text-align: right;
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -284,10 +284,10 @@ export const LastItemDescription = styled.p`
 export const ItemDescription = styled.p`
   color: rgba(255, 255, 255, 0.8);
 
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 156%;
   @media screen and (max-width: 481px) {
     max-width: 337px;
@@ -309,7 +309,7 @@ export const Button = styled.button`
   height: 46px;
   margin-right: -40px;
   color: ${theme.white};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -321,7 +321,7 @@ export const Button = styled.button`
 
 export const ArrowText = styled.p`
   color: ${theme.white};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

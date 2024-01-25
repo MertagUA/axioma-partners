@@ -5,11 +5,31 @@ import background2 from "../../assets/images/item2.png";
 import background3 from "../../assets/images/item3.png";
 import background4 from "../../assets/images/item4.png";
 import background5 from "../../assets/images/item5.png";
+import background1Eng from "../../assets/images/item1Eng.png";
+import background2Eng from "../../assets/images/item2Eng.png";
+import background3Eng from "../../assets/images/item3Eng.png";
+import background4Eng from "../../assets/images/item4Eng.png";
+import background5Eng from "../../assets/images/item5Eng.png";
+import background1Pl from "../../assets/images/item1Pl.png";
+import background2Pl from "../../assets/images/item2Pl.png";
+import background3Pl from "../../assets/images/item3Pl.png";
+import background4Pl from "../../assets/images/item4Pl.png";
+import background5Pl from "../../assets/images/item5Pl.png";
 import backgroundMobile1 from "../../assets/images/item1Mobile.png";
 import backgroundMobile2 from "../../assets/images/item2Mobile.png";
 import backgroundMobile3 from "../../assets/images/item3Mobile.png";
 import backgroundMobile4 from "../../assets/images/item4Mobile.png";
 import backgroundMobile5 from "../../assets/images/item5Mobile.png";
+import backgroundMobile1Eng from "../../assets/images/item1MobileEng.png";
+import backgroundMobile2Eng from "../../assets/images/item2MobileEng.png";
+import backgroundMobile3Eng from "../../assets/images/item3MobileEng.png";
+import backgroundMobile4Eng from "../../assets/images/item4MobileEng.png";
+import backgroundMobile5Eng from "../../assets/images/item5MobileEng.png";
+import backgroundMobile1Pl from "../../assets/images/item1MobilePl.png";
+import backgroundMobile2Pl from "../../assets/images/item2MobilePl.png";
+import backgroundMobile3Pl from "../../assets/images/item3MobilePl.png";
+import backgroundMobile4Pl from "../../assets/images/item4MobilePl.png";
+import backgroundMobile5Pl from "../../assets/images/item5MobilePl.png";
 
 export const Section = styled.section`
   padding: 79px 0 100px;
@@ -32,7 +52,7 @@ export const ItemsContainer = styled.div`
 
 export const Title = styled.p`
   color: ${theme.white};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -63,7 +83,7 @@ export const Description = styled.p`
 
   color: ${theme.white};
   text-align: right;
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -82,7 +102,7 @@ export const DescriptionMobile = styled.p`
   margin-bottom: 36px;
   text-align: left;
   color: ${theme.white};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -131,7 +151,7 @@ export const InfoWrapper = styled.div`
 
 export const InfoTitle = styled.p`
   color: ${theme.blue};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 29px;
   font-style: normal;
   font-weight: 900;
@@ -150,7 +170,7 @@ export const InfoText = styled.p`
   max-width: 218px;
   width: 100%;
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -204,7 +224,7 @@ export const ItemInfoReplaceMobidle = styled.div`
 `;
 
 export const InfoTextHover = styled.p`
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 29px;
   font-weight: 900;
   line-height: 28px;
@@ -223,10 +243,15 @@ export const Item1 = styled.div`
   width: 100%;
   height: 308px;
   padding: 40px;
-  cursor: pointer;
+  cursor: ${(props) => (props.language === "uk" ? "pointer" : "normal")};
   border-radius: 18px;
   background-color: ${theme.weCanItem};
-  background-image: url(${background1});
+  background-image: ${(props) =>
+    props.language === "en"
+      ? `url(${background1Eng})`
+      : props.language === "pl"
+      ? `url(${background1Pl})`
+      : `url(${background1})`};
   background-size: 50% 75%;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -244,7 +269,12 @@ export const Item1 = styled.div`
     max-width: 390px;
     height: 480px;
     background-size: 100%;
-    background-image: url(${backgroundMobile1});
+    background-image: ${(props) =>
+      props.language === "en"
+        ? `url(${backgroundMobile1Eng})`
+        : props.language === "pl"
+        ? `url(${backgroundMobile1Pl})`
+        : `url(${backgroundMobile1})`};
   }
 `;
 
@@ -294,10 +324,15 @@ export const Item2 = styled.div`
   width: 100%;
   height: 308px;
   padding: 40px;
-  cursor: pointer;
+  cursor: ${(props) => (props.language === "uk" ? "pointer" : "normal")};
   border-radius: 18px;
   background-color: ${theme.weCanItem};
-  background-image: url(${background2});
+  background-image: ${(props) =>
+    props.language === "en"
+      ? `url(${background2Eng})`
+      : props.language === "pl"
+      ? `url(${background2Pl})`
+      : `url(${background2})`};
   background-size: 57%;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -315,7 +350,12 @@ export const Item2 = styled.div`
     max-width: 390px;
     height: 370px;
     background-size: 100%;
-    background-image: url(${backgroundMobile2});
+    background-image: ${(props) =>
+      props.language === "en"
+        ? `url(${backgroundMobile2Eng})`
+        : props.language === "pl"
+        ? `url(${backgroundMobile2Pl})`
+        : `url(${backgroundMobile2})`};
   }
 `;
 
@@ -365,10 +405,15 @@ export const Item3 = styled.div`
   width: 100%;
   height: 547px;
   padding: 40px;
-  cursor: pointer;
+  cursor: ${(props) => (props.language === "uk" ? "pointer" : "normal")};
   border-radius: 18px;
   background-color: ${theme.weCanItem};
-  background-image: url(${background3});
+  background-image: ${(props) =>
+    props.language === "en"
+      ? `url(${background3Eng})`
+      : props.language === "pl"
+      ? `url(${background3Pl})`
+      : `url(${background3})`};
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: right bottom;
@@ -386,7 +431,12 @@ export const Item3 = styled.div`
     max-width: 390px;
     height: 480px;
     background-size: 100%;
-    background-image: url(${backgroundMobile3});
+    background-image: ${(props) =>
+      props.language === "en"
+        ? `url(${backgroundMobile3Eng})`
+        : props.language === "pl"
+        ? `url(${backgroundMobile3Pl})`
+        : `url(${backgroundMobile3})`};
   }
 `;
 
@@ -436,10 +486,15 @@ export const Item4 = styled.div`
   width: 100%;
   height: 285px;
   padding: 40px;
-  cursor: pointer;
+  cursor: ${(props) => (props.language === "uk" ? "pointer" : "normal")};
   border-radius: 18px;
   background-color: ${theme.weCanItem};
-  background-image: url(${background4});
+  background-image: ${(props) =>
+    props.language === "en"
+      ? `url(${background4Eng})`
+      : props.language === "pl"
+      ? `url(${background4Pl})`
+      : `url(${background4})`};
   background-repeat: no-repeat;
   background-size: 57%;
   background-position: right bottom;
@@ -457,7 +512,12 @@ export const Item4 = styled.div`
     max-width: 390px;
     height: 460px;
     background-size: 100%;
-    background-image: url(${backgroundMobile4});
+    background-image: ${(props) =>
+      props.language === "en"
+        ? `url(${backgroundMobile4Eng})`
+        : props.language === "pl"
+        ? `url(${backgroundMobile4Pl})`
+        : `url(${backgroundMobile4})`};
   }
 `;
 
@@ -507,10 +567,15 @@ export const Item5 = styled.div`
   width: 100%;
   height: 238px;
   padding: 40px 0 30px 40px;
-  cursor: pointer;
+  cursor: ${(props) => (props.language === "uk" ? "pointer" : "normal")};
   border-radius: 18px;
   background-color: ${theme.weCanItem};
-  background-image: url(${background5});
+  background-image: ${(props) =>
+    props.language === "en"
+      ? `url(${background5Eng})`
+      : props.language === "pl"
+      ? `url(${background5Pl})`
+      : `url(${background5})`};
   background-repeat: no-repeat;
   background-size: 48%;
   background-position: right bottom;
@@ -528,7 +593,12 @@ export const Item5 = styled.div`
     max-width: 390px;
     height: 460px;
     background-size: 100%;
-    background-image: url(${backgroundMobile5});
+    background-image: ${(props) =>
+      props.language === "en"
+        ? `url(${backgroundMobile5Eng})`
+        : props.language === "pl"
+        ? `url(${backgroundMobile5Pl})`
+        : `url(${backgroundMobile5})`};
   }
 `;
 
@@ -583,38 +653,51 @@ export const NameContainer = styled.div`
 
 export const Name1 = styled.p`
   color: ${theme.blue};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 29px;
   font-style: normal;
   font-weight: 900;
   line-height: 190.871%;
+
+  @media screen and (max-width: 360px) {
+    font-size: 26px;
+  }
 `;
 
 export const Name2 = styled.p`
   color: ${theme.pink};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 29px;
   font-style: normal;
   font-weight: 900;
   line-height: 190.871%;
+  @media screen and (max-width: 360px) {
+    font-size: 26px;
+  }
 `;
 
 export const Name3 = styled.p`
   color: ${theme.green2};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 29px;
   font-style: normal;
   font-weight: 900;
   line-height: 190.871%;
+  @media screen and (max-width: 360px) {
+    font-size: 26px;
+  }
 `;
 
 export const Name4 = styled.p`
   color: ${theme.purple};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 29px;
   font-style: normal;
   font-weight: 900;
   line-height: 190.871%;
+  @media screen and (max-width: 360px) {
+    font-size: 26px;
+  }
 `;
 
 export const Text1 = styled.p`
@@ -623,10 +706,10 @@ export const Text1 = styled.p`
   height: 128px;
 
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.778%;
 `;
 
@@ -668,10 +751,10 @@ export const Text2 = styled.p`
   height: 96px;
 
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.778%;
 `;
 
@@ -681,10 +764,10 @@ export const Text3 = styled.p`
   height: 160px;
 
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.778%;
 `;
 
@@ -694,10 +777,10 @@ export const Text4 = styled.p`
   height: 128px;
 
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.778%;
 `;
 
@@ -707,9 +790,9 @@ export const Text5 = styled.p`
   height: 96px;
 
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.778%;
 `;

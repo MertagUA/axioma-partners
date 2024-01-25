@@ -23,7 +23,7 @@ export const Title = styled.p`
   color: ${theme.white};
   text-align: right;
 
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -47,7 +47,7 @@ export const Description = styled.p`
   width: 100%;
   color: ${theme.white};
 
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -90,7 +90,7 @@ export const Item = styled.div`
 export const ItemTitle = styled.p`
   color: ${theme.white};
 
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -100,10 +100,10 @@ export const ItemTitle = styled.p`
 export const ItemDescription = styled.p`
   color: ${theme.white};
 
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.778%;
 
   @media screen and (max-width: 481px) {

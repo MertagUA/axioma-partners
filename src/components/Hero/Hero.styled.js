@@ -17,7 +17,7 @@ export const TopText = styled.p`
   padding-left: 363px;
 
   color: ${theme.green};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -31,23 +31,58 @@ export const TopText = styled.p`
 
 export const Title = styled.p`
   color: ${theme.white};
-  font-family: "Axiforma";
-  font-size: 72px;
+  font-family: "Gilroy", "Montserrat", sans-serif;
+  font-size: 42px;
   font-style: normal;
   font-weight: 700;
   line-height: 85.106%;
   text-align: right;
 
   @media screen and (max-width: 481px) {
-    margin-bottom: 75px;
+    margin-bottom: 80px;
     text-align: left;
-    font-size: 45px;
+    font-size: 33px;
     line-height: 111.111%;
+    max-width: ${(props) => (props.language === "en" ? "160px" : "225px ")};
+    width: 100%;
   }
 
-  @media screen and (max-width: 340px) {
-    font-size: 42px;
-  }
+  // @media screen and (max-width: 420px) {
+  //   font-size: ${(props) => (props.language === "pl" ? "36px" : "45px")};
+  // }
+
+  // @media screen and (max-width: 390px) {
+  // font-size: props) =>
+  // props.language === "en"
+  // ? "40px"
+  // : props.language === "pl"
+  // ? "32px"
+  // : props.language === "nl"
+  // ? "38px"
+  // : "42px"};
+  // }
+
+  // @media screen and (max-width: 345px) {
+  //   font-size: (props) =>
+  //     props.language === "en"
+  //       ? "36px"
+  //       : props.language === "pl"
+  //       ? "30px"
+  //       : props.language === "nl"
+  //       ? "34px"
+  //       : "42px"};
+  // }
+
+  // @media screen and (max-width: 325px) {
+  //   font-size: (props) =>
+  //     props.language === "pl"
+  //       ? "29px"
+  //       : props.language === "dk"
+  //       ? "37px"
+  //       : props.language === "nl"
+  //       ? "34px"
+  //       : "39px"};
+  // }
 `;
 
 export const TitleSpan = styled.span`
@@ -58,32 +93,90 @@ export const TitleSpan = styled.span`
 
 export const TitleBottom = styled.p`
   margin-top: 15px;
-  color: ${theme.white};
-  font-family: "Axiforma";
+  color: ${theme.green};
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: 85.106%;
   text-align: right;
   @media screen and (max-width: 481px) {
+    width: 200px;
     position: absolute;
-    top: 140px;
+    top: ${(props) => (props.language === "pl" ? "65px" : "100px")};
     right: 0;
-    font-size: 45px;
-    line-height: 177.778%;
+    font-size: 42px;
+    line-height: 85.106%;
     margin-top: 0;
   }
 
-  @media screen and (max-width: 360px) {
-    font-size: 39px;
-  }
+  // @media screen and (max-width: 420px) {
+  //   font-size: ${(props) => (props.language === "pl" ? "36px" : "45px")};
+  // }
+
+  // @media screen and (max-width: 390px) {
+  //   font-size: {(props) =>
+  //     props.language === "en"
+  //       ? "40px"
+  //       : props.language === "pl"
+  //       ? "32px"
+  //       : props.language === "nl"
+  //       ? "38px"
+  //       : "42px"};
+  //   top: {(props) =>
+  //     props.language === "pl"
+  //       ? "120px"
+  //       : props.language === "nl"
+  //       ? "125px"
+  //       : "135px"};
+  // }
+
+  // @media screen and (max-width: 360px) {
+  //   font-size: {(props) =>
+  //     props.language === "en"
+  //       ? "36px"
+  //       : props.language === "pl"
+  //       ? "32px"
+  //       : "39px"};
+  // }
+
+  // @media screen and (max-width: 345px) {
+  //   top: {(props) =>
+  //     props.language === "pl"
+  //       ? "115px"
+  //       : props.language === "nl"
+  //       ? "120px"
+  //       : "130px"};
+  //   font-size: {(props) =>
+  //     props.language === "pl"
+  //       ? "30px"
+  //       : props.language === "en"
+  //       ? "36px"
+  //       : props.language === "nl"
+  //       ? "34px"
+  //       : "39px"};
+  // }
+
+  //   @media screen and (max-width: 325px) {
+  //     font-size: {(props) =>
+  //       props.language === "pl"
+  //         ? "29px"
+  //         : props.language === "dk"
+  //         ? "37px"
+  //         : props.language === "en"
+  //         ? "36px"
+  //         : props.language === "nl"
+  //         ? "34px"
+  //         : "39px"};
+  //   }
+  //
 `;
 
 export const Description = styled.p`
-  max-width: 591px;
+  max-width: 410px;
   width: 100%;
-  color: ${theme.green};
-  font-family: "Axiforma";
+  color: ${theme.green3};
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -122,7 +215,10 @@ export const Lines = styled.div`
   border: 1px solid ${theme.green};
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 228px;
   width: 100%;
   height: 66px;
@@ -131,7 +227,7 @@ export const Button = styled.button`
   background-color: ${theme.green};
   cursor: pointer;
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;

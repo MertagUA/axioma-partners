@@ -26,7 +26,7 @@ export const Section = styled.section`
 
 export const Title = styled.p`
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 71px;
   font-style: normal;
   font-weight: 700;
@@ -90,7 +90,7 @@ export const ButtonText = styled.span`
   margin-right: 15px;
 
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -104,10 +104,10 @@ export const Description = styled.p`
 
   color: ${theme.grey};
   text-align: right;
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.778%;
 
   @media screen and (max-width: 481px) {
@@ -133,7 +133,7 @@ export const Description = styled.p`
 
 export const Accent = styled.span`
   color: ${theme.grey};
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -375,10 +375,10 @@ export const LeftBoxText = styled.p`
   width: 100%;
   color: ${theme.green};
 
-  font-family: "Axiforma";
+  font-family: "Gilroy", "Montserrat", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.778%;
 
   @media screen and (max-width: 405px) {
